@@ -2,6 +2,11 @@
 
 ---
 
+> 🚩 **FLAG DE TRACKEO DE IA** 
+> * **Capítulos 1-15:** Claude Opus
+> * **Capítulos 16 en adelante:** Gemini 1.5 Pro
+> *Objetivo del flag:* Evaluar que la prosa cruda, el "mostrar no explicar", el tono sombrío y el ritmo de los POV se mantengan consistentes a pesar del cambio de motor bajo el capó.
+
 ## 22 de abril, 2026 — Primer sprint
 
 ### Lo que funcionó

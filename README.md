@@ -94,8 +94,14 @@ Escritura creativa/
 - [x] Referentes históricos
 - [x] Vida cotidiana medieval (precios, comida, casas)
 
-### 🔥 Siguiente paso
-- [ ] **ESCRIBIR EL CAPÍTULO 1 — Matt, día 214**
+### 🔥 Borradores en progreso
+- [x] **ACTO I COMPLETADO** (Capítulos 1 al 8)
+- [x] **ACTO II INICIADO** (Capítulos 9 al 18)
+
+> 🚩 **FLAG DE TRACKEO DE IA:** 
+> - **Capítulos 1 al 15:** Escritos utilizando Claude Opus.
+> - **Capítulos 16 en adelante:** Escritos utilizando **Gemini 1.5 Pro**. 
+> *(Esta marca se mantiene a petición del autor para evaluar la consistencia, calidad de prosa y mantenimiento de la voz narrativa tras el cambio de motor de inferencia).*
 
 ---
 

@@ -16,28 +16,41 @@
 ```
 Escritura creativa/
 │
-├── 📖 Borradores/          ← Capítulos en progreso
+├── 📖 Borradores/                    ← Capítulos en progreso
 │
-├── 👤 Personajes/           ← Fichas de personajes
-│   └── personajes_principales.md
+├── 👤 Personajes/
+│   ├── personajes_principales.md     ← Resumen general
+│   ├── dacius.md                     ← Ficha completa de Dacius
+│   ├── matt.md                       ← Ficha completa de Matt
+│   ├── personajes_por_crear.md       ← 10 propuestas nuevas
+│   └── mapa_relaciones.md            ← Quién necesita a quién
 │
-├── 🗺️ Mundo/               ← Worldbuilding y atlas
-│   └── atlas.md
+├── 🗺️ Mundo/
+│   ├── atlas.md                      ← Territorios y geografía
+│   ├── linea_temporal.md             ← Cronología pre-novela
+│   ├── economia_imperial.md          ← Cómo funciona la máquina
+│   ├── estructura_militar.md         ← Ejército, generales, soldados
+│   ├── estructura_politica.md        ← Facciones, pilares del poder
+│   ├── sistema_de_magia.md           ← Reglas, límites, por territorio
+│   └── culturas_y_costumbres.md      ← Comida, ropa, idiomas, rituales
 │
-├── 📐 Esquema/              ← Estructura narrativa y arcos
-│   └── estructura_narrativa.md
+├── 📐 Esquema/
+│   ├── estructura_narrativa.md       ← Arcos y actos
+│   ├── capitulos_detallados.md       ← Capítulo a capítulo
+│   └── guia_de_estilo.md             ← Cómo se escribe esta novela
 │
-├── 🔍 Investigación/        ← Referentes históricos y notas
-│   └── referentes_historicos.md
+├── 🔍 Investigación/
+│   ├── referentes_historicos.md      ← Vietnam, colonialismo, dictaduras
+│   └── vida_cotidiana.md             ← Precios, comida, casa, trabajo
 │
-├── masterguide_cuatro_reinos.docx   ← Documento original
-├── masterguide_cuatro_reinos.md     ← Versión Markdown
-└── README.md                        ← Este archivo
+├── masterguide_cuatro_reinos.docx    ← Documento original
+├── masterguide_cuatro_reinos.md      ← Versión Markdown
+└── README.md                         ← Este archivo
 ```
 
-## 🏷️ Etiquetas para notas en el texto
+---
 
-Usa estas etiquetas dentro de comentarios Markdown `<!-- -->` para que aparezcan en la barra lateral de Todo Tree:
+## 🏷️ Etiquetas para notas en el texto
 
 | Etiqueta | Uso |
 |----------|-----|
@@ -49,6 +62,8 @@ Usa estas etiquetas dentro de comentarios Markdown `<!-- -->` para que aparezcan
 | `REESCRIBIR` | Fragmento que necesita reescritura |
 | `NOTA` | Nota general del autor |
 
+---
+
 ## ⌨️ Atajos útiles
 
 - **Zen Mode:** `Ctrl+K` → `Z` (modo escritura sin distracciones)
@@ -56,15 +71,31 @@ Usa estas etiquetas dentro de comentarios Markdown `<!-- -->` para que aparezcan
 - **Buscar en proyecto:** `Ctrl+Shift+F`
 - **Contador de palabras:** Visible en la barra inferior
 
+---
+
 ## 🎯 Estado Actual
 
+### ✅ Fundamentos completados
 - [x] Masterguide leído y procesado
-- [x] Estructura del proyecto creada
-- [x] Fichas de personajes iniciales
-- [x] Atlas del mundo
-- [x] Estructura narrativa
+- [x] Estructura del proyecto
+- [x] Atlas del mundo (6 territorios)
+- [x] Línea temporal (60 años de historia)
+- [x] Economía imperial (flujo de riqueza, tributos, monedas)
+- [x] Estructura militar (4 generales, jerarquía, guarniciones)
+- [x] Estructura política (5 pilares, facciones, gobernadores)
+- [x] Sistema de magia (reglas, límites, Duren Sakh)
+- [x] Culturas y costumbres (comida, ropa, idioma, rituales × 6 territorios)
+- [x] Fichas de personajes (Dacius, Matt — completas)
+- [x] 10 personajes nuevos propuestos
+- [x] Mapa de relaciones
+- [x] Estructura narrativa (3 actos)
+- [x] Desglose por capítulos (7 detallados + esbozos)
+- [x] Guía de estilo (voz por POV, principios, referentes)
 - [x] Referentes históricos
-- [ ] **Primer capítulo — POR ESCRIBIR**
+- [x] Vida cotidiana medieval (precios, comida, casas)
+
+### 🔥 Siguiente paso
+- [ ] **ESCRIBIR EL CAPÍTULO 1 — Matt, día 214**
 
 ---
 

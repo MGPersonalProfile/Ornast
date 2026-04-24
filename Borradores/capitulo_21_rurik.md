@@ -2,168 +2,124 @@
 
 ---
 
-El Imperio llamaba bárbaros a los hombres del sur porque no construían sus casas con piedra escuadrada y porque no usaban monedas con la cara de un niño grabada en ellas. Rurik los llamaba "el enemigo" por pura cortesía profesional, aunque en la intimidad de su propia cabeza, asándose lentamente bajo el sol inclemente de Fuerte Caldera, había empezado a llamarlos simplemente "los dueños".
+El Imperio llamaba bárbaros a los hombres del sur porque no construían con piedra escuadrada ni usaban monedas con la cara de un niño grabada en ellas. Rurik los llamaba "el enemigo" por cortesía profesional. En privado, había empezado a llamarlos simplemente "los dueños".
 
-Eran los dueños del desierto de roca roja. Eran los dueños de los pozos ocultos. Y, lo más importante en el día cuarenta y dos del asedio intermitente, eran los dueños del tiempo. Ellos tenían todo el tiempo del mundo. Rurik y sus cuatrocientos hombres no.
+Eran los dueños del desierto. De los pozos ocultos. Y lo más importante en el día cuarenta y dos del asedio: eran los dueños del tiempo.
 
-Una flecha de hueso astillado impactó con un crujido sordo contra la empalizada de madera de palma justo encima de la cabeza de Rurik. No se inmutó. No porque fuera excepcionalmente valiente, sino porque el cansancio había matado los reflejos biológicos del miedo. El miedo requería calorías que no había consumido en cuatro días.
+Una flecha de hueso astillado se clavó en la empalizada a un palmo de su cabeza. No se inmutó. No por valentía. Porque el cansancio había matado los reflejos del miedo. El miedo requiere calorías.
 
-—¿Bajas? —preguntó Rurik, sin apartar la vista de la línea de dunas rocosas a trescientos metros de distancia, donde las sombras se movían entre las piedras.
+—¿Bajas?
 
-A su lado, el Sargento Mayor Tarsus asintió y trazó una marca en la madera con un trozo de tiza.
+El Sargento Mayor Tarsus marcó la madera con un trozo de tiza.
 
-—Tres bajas esta mañana, Comandante. Dos por flecha. Uno por la fiebre de la sed. Eso nos deja en trescientos doce operativos. Y digo "operativos" con mucha imaginación. La mitad no puede levantar una pica sin marearse.
+—Tres esta mañana. Dos por flecha, uno por la fiebre de la sed. Trescientos doce operativos. Y digo "operativos" generosamente.
 
-Rurik escupió sobre la madera. No salió saliva, solo un hilo seco y polvoriento. 
+Rurik escupió. No salió saliva.
 
-Fuerte Caldera no era un castillo. Era un error táctico construido en el lugar equivocado. Un cuadrado de muros de palma petrificada y adobe en el extremo más profundo y hostil de la frontera sur, construido diez años atrás para proteger una supuesta ruta de gemas que resultó estar agotada antes de que se pusiera el primer ladrillo. Pero la burocracia imperial no abandonaba fuertes. La burocracia en Ornast mandaba destacamentos a "mantener la posición", porque borrar un punto rojo del mapa estratégico en el Ministerio de Defensa equivalía a admitir una derrota. 
+Fuerte Caldera era un error táctico. Un cuadrado de muros de palma petrificada en el extremo más profundo de la frontera sur, construido para proteger una ruta de gemas que se agotó antes de poner el primer ladrillo. Pero la burocracia imperial no abandonaba fuertes. Borrar un punto del mapa equivalía a admitir una derrota, y el Imperio no admitía derrotas. Las reclasificaba.
 
-Así que Rurik y el 44º Regimiento de Infantería Pesada mantenían la posición. 
+Las caravanas de suministros dejaron de llegar hacía tres semanas. Primero creyeron que eran tormentas de arena. Luego emboscadas. En el día dieciocho, Rurik envió jinetes al norte. Regresó uno solo, con el caballo reventado.
 
-O lo hacían hasta hacía tres semanas, cuando las caravanas de suministros dejaron de llegar.
+*No hay convoy, Comandante. Graneros vacíos. Orden del General Drago: redirigir suministros hacia la frontera este por la amenaza del Rey Demonio. Fuerte Caldera ha sido declarado posición de autosuficiencia de baja prioridad.*
 
-Al principio, pensaron que era un retraso por las tormentas de arena. Luego, por emboscadas en la ruta. En el día dieciocho sin provisiones, Rurik envió una patrulla de jinetes rápidos hacia el norte, hacia la ciudad guarnición más cercana, buscando el convoy. Solo regresó un jinete, con el caballo reventado, sin flechas en el cuerpo pero con una noticia peor que cualquier ataque. 
+Autosuficiencia. En un desierto donde el pozo daba agua salobre.
 
-*No hay convoy, Comandante. Los graneros en la ciudad guarnición están vacíos. Las órdenes del General Drago son redirigir todo el suministro disponible hacia el este, para asegurar la frontera con Valdren por los rumores del Rey Demonio. Fuerte Caldera ha sido declarado "posición de autosuficiencia de baja prioridad".*
+Baja prioridad. La forma que tiene un burócrata a tres mil kilómetros, sentado bajo luz mágica, de firmar la muerte de trescientos hombres.
 
-Autosuficiencia. En medio de un desierto de roca donde el único pozo daba agua salobre que daba calambres en el estómago. 
+Rurik miró el patio interior. Soldados de Kethara acostumbrados al frío, cocinándose en corazas de cuero hervido. Hombres con encías sangrantes bebiendo orina filtrada porque la ración de agua era un vaso al día. Y en el centro, el estandarte imperial. El Águila de Dos Cabezas bordada en oro sobre seda negra, ondeando en el viento caliente como si nada pasara.
 
-Baja prioridad. La elegante forma en que un chupatintas en Ornast, a tres mil kilómetros de distancia, sentado en una silla acolchada bajo una luz mágica, condenaba a trescientos hombres a pudrirse al sol.
+—Tarsus. Los cuatro centuriones que queden vivos. En mi tienda. Ahora.
 
-Rurik apartó la mirada de las dunas enemigas y miró hacia el patio interior del fuerte. 
+—¿Salida final, señor?
 
-Era un matadero a cámara lenta. Soldados de Kethara, acostumbrados al frío, cocinándose dentro de corazas de cuero hervido que no se atrevían a quitarse. Hombres con las encías sangrantes por el escorbuto, bebiendo su propia orina filtrada a través de trapos sucios porque la ración de agua se había reducido a un vaso pequeño por día. 
+—No. Toca dejar de ser idiotas.
 
-Y en el centro de todo, el estandarte imperial. El Águila de Dos Cabezas, bordada en oro sobre seda negra, ondeando perezosamente en el viento ardiente. 
+---
 
-—Tarsus —dijo Rurik, su voz como papel de lija.
+La tienda estaba a cincuenta grados. Mesa de tablón sobre barriles vacíos. Mapa del sector sur. Fuerte Caldera en el centro de un círculo dibujado con carbón.
 
-—¿Sí, Comandante?
+Los cuatro centuriones olían a enfermedad y pólvora vieja. Valen, gigante del norte reducido a la mitad por la disentería. Ciro, un vendaje sucio tapando la cuenca del ojo izquierdo. Marik temblando de fiebre. Vane, el más joven, con los nudillos blancos sobre el pomo de su espada.
 
-—Llama a los centuriones. A los cuatro que quedan vivos. En mi tienda. Ahora.
+Rurik los miró uno por uno.
 
-—¿Toca hacer la salida final, señor? —La voz de Tarsus no tembló. Era un soldado viejo. Si la orden era salir por las puertas y cargar contra los nativos hasta que la última lanza se rompiera para morir con honor militar, Tarsus lo haría.
+—Se acabó el agua dulce. El pozo da fango. Flechas para dos escaramuzas. Comida para tres días a media ración. Cero si queremos tener fuerza para levantar un arma.
 
-—No —dijo Rurik, mirando la seda negra del estandarte—. Toca dejar de ser idiotas.
+Nadie jadeó. Era la confirmación de lo que ya sentían en el cuerpo.
 
-***
+—El protocolo dice que hagamos una salida en cuña hacia el norte. Romper asedio, marcha forzada, territorio imperial.
 
-La tienda del Comandante estaba a casi cincuenta grados. La mesa central, un tablón tosco apoyado sobre dos barriles vacíos de agua, mostraba un mapa del sector sur. Fuerte Caldera estaba en el centro de un círculo dibujado con carbón, que representaba el asedio nativo. Más allá del círculo, al norte, una larga línea vacía hasta la civilización imperial.
+Valen se rió. Sonó a grava cayendo sobre madera.
 
-Los cuatro centuriones estaban de pie alrededor de la mesa. Olían a enfermedad y a pólvora vieja. Valen, un gigante del norte al que la disentería había dejado en la mitad de su tamaño; Ciro, con un vendaje sucio cubriendo la cuenca de su ojo izquierdo; Marik, que temblaba levemente por la fiebre; y Vane, el más joven, cuyos nudillos estaban blancos de tanto apretar el pomo de su espada.
+—No hay Imperio en el norte, Comandante. Nos borraron del mapa hace tres semanas. Si marchamos, morimos de sed en la Ruta Blanca. Si llegamos, nos cuelgan por desertores.
 
-Junto a ellos, el Sargento Mayor Tarsus.
+—Ornast nos ha dado por muertos —dijo Vane—. Para el Ministerio somos nombres tachados de una lista.
 
-Rurik los miró uno por uno. Eran la anatomía perfecta del abandono. Soldados de élite reducidos a perros hambrientos atados a una estaca.
+—Exacto —dijo Rurik—. Estamos muertos. Así que mi pregunta es sencilla: si para el Imperio no existimos, ¿por qué seguimos defendiendo su propiedad?
 
-—Se acabó el agua dulce —dijo Rurik sin preámbulos—. Ayer vaciamos el último barril de reserva. El pozo profundo está dando fango salado que nos mata más rápido que la deshidratación. Nos quedan flechas para dos escaramuzas más. Comida para tres días si comemos a media ración. Cero si queremos tener fuerza para levantar las armas.
+Silencio. Un moscardón contra la lona.
 
-Nadie protestó. Nadie jadeó. Era la confirmación matemática de lo que todos ya sentían en el cuerpo.
+—Hable claro, Comandante —dijo Ciro—. A los fantasmas no les gustan los acertijos.
 
-—El protocolo dicta —continuó Rurik, usando un tono deliberadamente plano, burocrático— que en caso de posición insostenible, debemos hacer una salida en formación de cuña, romper el asedio e intentar una marcha forzada hacia el norte, hacia el territorio del Imperio.
+—Aquí vinimos a morir. Todos lo sabíamos cuando firmamos. Pero me niego a morir para que un chupatintas en Ornast cuadre un libro de cuentas. Tenemos murallas. Espadas de acero que los nativos matarían por tener. Hombres que saben construir cisternas y organizar defensas. Tenemos todo lo que hace falta para una nación excepto comida. Y la comida la tienen ellos.
 
-Valen soltó una carcajada seca que sonó como un puñado de grava cayendo sobre madera.
+Señaló hacia las dunas.
 
-—El Imperio no está en el norte, Comandante. El Imperio nos borró del mapa hace tres semanas. Si marchamos hacia el norte, moriremos de sed en la Ruta Blanca. Y si, por algún milagro oscuro, uno de nosotros llega a la ciudad guarnición, lo colgarán por deserción de su puesto.
+—No nos atacan por diversión. Nos atacan porque les ocupamos el pozo de invierno para plantar una bandera que representa al Imperio que los ha estado cazando diez años.
 
-—Valen tiene razón —intervino Vane, el joven—. No hay rescate. Nos enviaron aquí para proteger unas minas que no existen. Y ahora que los suministros aprietan por la paranoia de la guerra en el oeste, nos recortan de los libros de cuentas porque la cuerda siempre se corta por lo más lejano. Ornast nos ha dado por muertos.
+—¿Qué sugiere? —dijo Tarsus.
 
-Rurik apoyó las manos, enguantadas en cuero endurecido, sobre el mapa.
+—Que bajemos esa puta bandera. Que abra las puertas. Que Ciro y yo salgamos desarmados hacia las dunas y les digamos que el Imperio se ha marchado hoy. Que lo que queda aquí son trescientos hombres desesperados que buscan un hogar y que ofrecen sus espadas y sus técnicas a cambio de agua, comida y el derecho a quedarse.
 
-—Exacto. Ornast nos ha dado por muertos. Para el Ministerio de Defensa y para el Emperador de mármol, los trescientos doce hombres que estamos en este fuerte ya somos nombres tachados en una lista de provisiones. No existimos.
+Vane dio un paso atrás.
 
-Hizo una pausa, dejando que el peso de la declaración, la blasfemia absoluta contra el juramento militar, se asentara en la pequeña y asfixiante tienda. 
+—Eso es alta traición, Comandante. Un estado renegado pactando con bárbaros.
 
-—Así que mi pregunta es sencilla —prosiguió Rurik, mirando a los ojos de sus oficiales—. Si para el Imperio estamos muertos... ¿por qué seguimos defendiendo su propiedad?
+—Drago está a ochocientos kilómetros contando el dinero que roba —dijo Valen—. Y nosotros nos morimos mañana. La traición es un concepto de los vivos.
 
-El silencio fue absoluto. Solo el zumbido de un moscardón contra la lona de la tienda.
+—Nuestro honor. El Águila...
 
-Ciro, el del ojo vendado, se inclinó sobre el tablón.
+Rurik se acercó al joven. Sin ira. Con frialdad.
 
-—Hable claro, Comandante. A los fantasmas no les gustan los acertijos.
+—El honor no se bebe, Vane. El Águila es un trapo de deudas que no va a bajar de su palacio para darnos las gracias cuando nuestros cadáveres sean comida de buitres.
 
-—Aquí vinimos a morir —dijo Rurik, y la frase salió de sus labios con una fuerza telúrica, antigua—. Todos nosotros. Cuando firmamos el contrato, cuando nos subimos a los carros, cuando nos tragamos la arena de este infierno. Sabíamos que esto no era un desfile en la capital. Vinimos a morir. Pero yo me niego a morir por una maquinaria burocrática que calcula mi vida en kilos de trigo que ya no le resulta rentable enviar.
+Se dirigió a todos.
 
-Señalo con el dedo el centro del mapa, el punto que marcaba el fuerte.
+—No pido que rompáis el juramento a la ligera. Pido que miréis lo que hay. El centro se pudre, el oeste arde, nosotros somos la periferia olvidada. Ornast nos ha dado permiso para morir. Lo que propongo es que, ya que vamos a morir aquí, lo hagamos defendiendo algo nuestro.
 
-—Tenemos murallas. Tenemos espadas de acero toledano que los nativos matarían por conseguir. Tenemos hombres que saben organizar formaciones de batalla, tácticas defensivas y construcción de cisternas subterráneas. Tenemos todo lo que constituye una nación, excepto la comida. Y la comida la tienen ellos.
+Silencio. Respiración dificultosa de los moribundos fuera de la tienda.
 
-Señaló hacia afuera, hacia las dunas.
+—¿Cómo sabrán que no es trampa? —preguntó Ciro—. No confían en la seda imperial.
 
-—Los nativos no nos atacan porque nos odien por diversión. Nos atacan porque ocupamos su único pozo de invierno para levantar una bandera que representa al mismo Imperio que los ha estado cazando durante diez años. 
+Rurik fue al rincón de la tienda. En un camastro yacía el cuerpo del médico, muerto la noche anterior, todavía vestido con la bata de lino blanco de cirugía.
 
-—¿Qué sugiere? —preguntó Tarsus, su voz un susurro ronco.
+Sacó la daga. Rajó la tela. Cortó un cuadrado grande de lino blanco y lo extendió sobre el mapa. La tela borró las fronteras, los nombres, las líneas de suministro.
 
-—Sugiero que bajemos esa puta bandera —dijo Rurik—. Sugiero que abra las puertas de par en par. Sugiero que Ciro y yo salgamos a pie, desarmados, hacia la línea de dunas. Les diremos a los jefes tribales que el Imperio de Ornast se ha marchado de esta tierra hoy mismo. Que los soldados del Águila ya no existen. Y que los trescientos hombres desesperados, bien armados y entrenados que quedan dentro de esta empalizada están buscando un nuevo hogar. Y que estamos dispuestos a ofrecer nuestras espadas, nuestras técnicas de construcción y nuestras vidas para proteger el sur de cualquier avance imperial que venga en el futuro, a cambio de agua, comida, y el derecho a mezclarnos con su gente.
+—Una bandera blanca imperial no significa paz aquí. Significa mentira.
 
-El joven Vane dio un paso atrás, pálido.
+Se miró la mano izquierda. Apretó el filo contra la palma y tiró. La carne se abrió. La sangre brotó roja, densa, real.
 
-—Eso es alta traición, Comandante. Es la sedición más pura. Formar un estado renegado pactando con bárbaros hostiles. Si el General Drago se entera...
+Apretó el puño y lo estampó en el centro del lino blanco. Cuando lo levantó, había dejado la marca de su mano ensangrentada. La sangre se absorbió en los hilos, expandiéndose por los bordes.
 
-—Drago está a ochocientos kilómetros de aquí contando el dinero que roba en Duren Sakh —le cortó Valen, el gigante, su voz retumbando en la pequeña tienda—. Y nosotros nos morimos mañana, niño. La traición es un concepto de los vivos.
+—El Águila ha muerto de inanición en este fuerte hoy —dijo Rurik—. Y esta es nuestra bandera. Una hoja en blanco con la única cosa que el Imperio nunca pudo robarnos.
 
-—Pero... nuestro honor. El Águila...
+—Tarsus. Sube a la torre. Corta la cuerda del estandarte. Que caiga al barro. Y ata esto a una lanza. Que la sangre mire al sur.
 
-Rurik se acercó a Vane. No con ira, sino con una frialdad quirúrgica.
+Tarsus tomó la tela. Le temblaban las manos. No de miedo. Salió corriendo con una energía que no tenía hacía semanas.
 
-—El honor no se bebe, Vane. El Águila de Dos Cabezas es un trapo manchado de deudas que no piensa bajar de su palacio caliente para darnos las gracias cuando nuestros cadáveres sean comida de buitres. A ti te juraron que lucharías por la gloria. Te mintieron. Solo luchas por el control de una ruta de minerales que a alguien más rico que tú le interesaba. 
+Rurik se vendó la mano con un retazo del uniforme del muerto.
 
-Rurik se separó del joven y se dirigió a todos.
+—Valen, Ciro. Bajen las ballestas, envainen las espadas, abran las puertas. Si nos acribillan, moriremos libres. Y si no, empezaremos algo.
 
-—Yo no pido que rompáis vuestro juramento a la ligera. Pido que miréis la realidad. El centro se pudre. El oeste arde. Nosotros somos la periferia olvidada. Ornast nos ha dado permiso para morir. Lo que estoy proponiendo es que, ya que vamos a morir aquí en el sur, lo hagamos defendiendo algo que nos pertenezca. Tierra. Comida. Las mujeres con las que podamos casarnos en los oasis. Una nación que nazca hoy, en este maldito agujero, formada por los desechos de un Imperio que no nos merece.
+Los centuriones no saludaron con el puño en el pecho. Asintieron con la cabeza. De hombre a hombre. Salieron.
 
-Nadie replicó. Durante un largo minuto, el único sonido fue la respiración dificultosa de los hombres moribundos fuera de la tienda.
+Rurik se quedó solo un momento. Tomó su espada, la miró, y la dejó apoyada contra el tablón. Saldría con las manos vacías.
 
-—¿Cómo sabrán los nativos que no es una trampa? —preguntó Ciro—. Si salimos con una bandera blanca, pensarán que es un truco para meterlos en el campo de tiro de nuestras ballestas. No confían en la seda imperial.
+En el patio, trescientos hombres vieron caer el estandarte de seda negra. Se enredó en el polvo junto a los barriles vacíos como una cosa muerta. En lo alto de la torre, Tarsus izó la nueva enseña: una lanza astillada con un trapo blanco manchado en el centro por el rojo de una mano abierta.
 
-Rurik asintió. Se dio la vuelta y se acercó a un rincón de la tienda. Allí, en un camastro, yacía el cuerpo del médico de la guarnición, muerto la noche anterior por las fiebres, aún vestido con la gruesa bata médica de lino blanco que usaba para las cirugías en el frente.
+El viento la desplegó contra el cielo gris del sur. Era fea. Era la cosa más honesta que Rurik había visto en veinte años de servicio.
 
-Rurik desenvainó su daga de servicio. Con un movimiento rápido y ruidoso, rajó la tela pesada y cortó un gran cuadrado de lino blanco de la espalda de la bata médica. 
+Las puertas de Fuerte Caldera se abrieron con un chirrido que protestó contra la arena acumulada. El desierto entró. Olía a polvo, a piedra horneada. Las figuras de los asediadores en las dunas dejaron de moverse.
 
-Regresó a la mesa y extendió la tela blanca sobre el mapa militar del Imperio. El lino impoluto borró las fronteras, los nombres de las ciudades, las líneas de suministro falsas.
+Rurik caminó hacia la salida, sintiendo las miradas de trescientos hombres en su espalda.
 
-—Tiene razón, Ciro. Una bandera blanca imperial no significa paz aquí abajo. Significa mentira.
-
-Rurik miró su propia mano izquierda. Tomó la daga con la derecha y, sin dudar, apretó el filo afilado contra la palma de su mano izquierda y tiró rápidamente. La carne se abrió en un tajo limpio. La sangre brotó inmediatamente, roja, densa, real, contrastando violentamente con la sequedad mortal del entorno.
-
-El Comandante apretó el puño herido. Colocó la mano justo en el centro geométrico del cuadrado de lino blanco y la apretó con fuerza contra la tela.
-
-Cuando levantó la mano, había dejado una impresión perfecta de su mano ensangrentada, una mancha roja, brutal y caótica, en medio del blanco puro. La sangre empezó a absorberse en los hilos del lino, expandiéndose levemente por los bordes.
-
-Rurik levantó el trozo de tela cortada de una mortaja. 
-
-—El Águila de Dos Cabezas ha muerto de inanición en este fuerte hoy —proclamó Rurik, su voz resonando con una autoridad que no venía de ningún decreto de Ornast, sino de la desesperación más pura—. Y esta es nuestra nueva bandera. Una hoja en blanco, bautizada con la única cosa que el Imperio nunca pudo robarnos: nuestra propia sangre.
-
-Miró a sus oficiales. Ya no eran subalternos acatando la cadena de mando. Eran, en ese exacto segundo, los padres fundadores de un Estado bastardo, nacido de la negligencia en el último rincón del mundo.
-
-—Tarsus —ordenó Rurik, tendiéndole el trozo de lino ensangrentado.
-
-—¿Sí, Comandante? —El viejo sargento tomó la tela, sus manos temblando levemente, no por miedo, sino por el peso histórico del pedazo de tela.
-
-—Sube a la torre principal. Corta la cuerda del estandarte imperial. Que caiga al barro. Y ata esto a una lanza de asta larga. Que la vena de sangre mire hacia el sur, hacia las dunas. Que lo vean. 
-
-Tarsus apretó los labios, asintió vigorosamente y salió corriendo de la tienda con una energía que no había tenido en semanas.
-
-Rurik se vendó torpemente la mano con un retazo del uniforme del médico muerto. Miró a los centuriones restantes.
-
-—Valen, Ciro. Ordenen a los hombres que bajen las ballestas y envainen las espadas. Abran las pesadas puertas de roble del frente. No importa lo que pase, nadie dispara una sola flecha. Si los nativos nos acribillan cuando salgamos, moriremos libres, y no esperando como cerdos en un matadero a que un burócrata nos firme el papel de defunción.
-
-Los centuriones saludaron. No con el saludo imperial de golpear el pecho con el puño derecho. Asintieron lentamente con la cabeza, una muestra de respeto profundo, de hombre a hombre. Salieron de la tienda para cumplir sus órdenes.
-
-Rurik se quedó solo por un momento. Recogió su coraza abollada del suelo y se la colocó sobre los hombros, sin ajustarla del todo. Tomó su espada ancha, pero no la envainó en su cinturón; la dejó deliberadamente apoyada contra el tablón de madera. 
-
-Saldría con las manos vacías. 
-
-Salió de la tienda hacia el cegador sol del mediodía. En el centro del patio, trescientos soldados andrajosos, esqueléticos y febriles observaban en silencio sepulcral cómo el enorme y pesado estandarte de seda negra y oro con el Águila Imperial caía lentamente en picado, enredándose miserablemente en el polvo seco junto a los barriles de agua vacíos.
-
-En lo alto de la torre de vigía, Tarsus izó la nueva enseña. Una lanza astillada con un trapo médico blanco, maculado en el centro por el rojo violento de una mano humana abierta. 
-
-Ondeó contra el cielo grisáceo del sur. Era rústica. Era espantosa. Era la cosa más real que Rurik había visto en sus veinte años de servicio militar.
-
-Abajo, con un chirrido sordo y prolongado que protestaba por la arena acumulada en los rieles, las inmensas puertas de madera de Fuerte Caldera se abrieron de par en par, revelando la inmensidad del desierto rocoso y las figuras expectantes y desconcertadas de los nativos asediadores en las dunas cercanas.
-
-Rurik respiró el aire ardiente que entró por la apertura. Olía a polvo, a piedra horneada y, extrañamente, a futuro.
-
-Caminó hacia la salida, sintiendo las miradas de trescientos hombres en su espalda. 
-
-"Aquí vinimos a morir", pensó Rurik, sus botas cruzando la línea que separaba el suelo imperial del territorio libre. "Pero por los dioses que no lo haremos por ellos".
+*Aquí vinimos a morir*, pensó, cruzando la línea entre el suelo imperial y lo que hubiera al otro lado. *Pero no por ellos.*

@@ -96,12 +96,13 @@ Escritura creativa/
 
 ### 🔥 Borradores en progreso
 - [x] **ACTO I COMPLETADO** (Capítulos 1 al 8)
-- [x] **ACTO II INICIADO** (Capítulos 9 al 18)
+- [x] **ACTO II EN PROGRESO** (Capítulos 9 al 23)
 
 > 🚩 **FLAG DE TRACKEO DE IA:** 
 > - **Capítulos 1 al 15:** Escritos utilizando Claude Opus.
-> - **Capítulos 16 en adelante:** Escritos utilizando **Gemini 1.5 Pro**. 
-> *(Esta marca se mantiene a petición del autor para evaluar la consistencia, calidad de prosa y mantenimiento de la voz narrativa tras el cambio de motor de inferencia).*
+> - **Capítulos 16 al 23:** Borrador inicial por Gemini 1.5 Pro → **reescritos por Claude Opus 4.6** tras auditoría de calidad (prosa abstracta, monólogos expositivos, adjetivos apilados). Se mantuvieron las tramas y beats narrativos; se reescribió toda la prosa para recuperar la voz física y sensorial del Acto I.
+> - **Capítulos 24 en adelante:** Claude Opus 4.6.
+> *(Esta marca se mantiene a petición del autor para evaluar la consistencia y calidad de prosa tras cambios de modelo.)*
 
 ---
 

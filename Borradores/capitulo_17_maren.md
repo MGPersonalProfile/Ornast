@@ -2,166 +2,104 @@
 
 ---
 
-El mapa estratégico del Cuartel General era una obra de arte, una mentira majestuosa y carísima, y Seraphina Maren lo odiaba con la pasión tranquila y profesional con la que se odia a un subordinado incompetente pero inamovible.
+El mapa mentía.
 
-Ocupaba toda la pared este de su despacho. Estaba dibujado sobre piel de becerro curtida y tensada, tintado con pigmentos importados de oriente, detallando el Imperio de Ornast en su teórica e inexpugnable gloria. Las cordilleras se alzaban en relieves de pasta de papel, los ríos eran venas de zafiro triturado incrustado en el pegamento, y las ciudades principales estaban marcadas con gemas de corte bajo.
+Ocupaba toda la pared este del despacho. Piel de becerro curtida, ríos de zafiro triturado incrustado en el pegamento, cordilleras en relieve de pasta de papel. Las ciudades principales marcadas con gemas de corte bajo que brillaban con la luz de las piedras mágicas del techo. Una obra de arte cara y completamente inútil.
 
-Y sobre todo eso, las fichas. Cientos de fichas de madera de roble barnizadas, movidas cada mañana por suboficiales con varas de fresno largas como lanzas. Rojas para las guarniciones de infantería provincial. Azules para la Marina en Solmara. Plateadas para la Guardia Imperial en la capital. Negras, delgadas como esquirlas de obsidiana, para los regimientos de castigo y las unidades especiales de su colega Drago en el desierto.
+Y sobre todo eso, las fichas. Cientos de fichas de madera barnizada movidas cada mañana por suboficiales con varas largas como lanzas. Rojas para infantería provincial. Azules para la Marina en Solmara. Plateadas para la Guardia Imperial. Negras, delgadas como esquirlas de obsidiana, para las unidades de Drago en el desierto.
 
-Había demasiadas fichas rojas en Veth. Esa era la primera mentira.
+Había demasiadas fichas rojas en Veth. Esa era la primera mentira. La segunda era que las fichas representaban hombres que todavía estaban allí.
 
-Seraphina Maren, General Suprema del ala defensiva del Imperio, se sirvió una copa de licor. El despacho olía a lo que olían todos los despachos del Ministerio de Defensa: a cera de abeja usada para pulir muebles antiguos, a pergamino reseco, y a ese sutil pero inconfundible olor metálico del aceite de armaduras. Era el olor de una fuerza militar estática, de una burocracia con espadas que no había librado una guerra real, de fronteras hacia afuera, en sesenta años.
+Maren se sirvió una copa de licor de Valdren y se sentó en el sofá de cuero. El despacho olía a cera de abeja, a pergamino reseco y al aceite metálico de las armaduras que nadie usaba. El olor de un ejército que no había luchado una guerra real de fronteras hacia afuera en sesenta años.
 
-Maren no era estática. A sus cuarenta y dos años, mantenía el pelo negro cortado a ras del cráneo por una cuestión de estricta utilidad. No usaba joyas, a excepción del anillo de sello militar, grueso y pesado, en su mano derecha. A diferencia de Voss, que vestía uniformes de gala cargados de medallas conmemorativas de escaramuzas que nadie recordaba, Maren usaba una casaca de cuero gris, funcional y sin adornos. Su mente procesaba la táctica militar con la misma frialdad clínica y libre de romanticismo con la que la banquera Lena Aurelian procesaba los intereses compuestos. 
+A sus cuarenta y dos años, Maren llevaba el pelo cortado a ras del cráneo por utilidad. No usaba joyas salvo el anillo de sello militar, grueso y pesado, en la mano derecha. La casaca de cuero gris sin adornos. Su mente procesaba la táctica con la misma frialdad con la que Lena Aurelian procesaba los intereses compuestos, y por eso Maren era la única en el Consejo de Guerra que se reía. A puerta cerrada, a carcajadas. Porque si mirabas la inmensa ficción que mantenía unido al Imperio y no te reías, te volvías rígido como Voss o te secabas como Thorne.
 
-Por eso Maren era el único miembro del Consejo de Guerra que reía. A veces, a puerta cerrada, se reía a carcajadas. Reía porque si observabas la inmensa máquina imperial y no te reías de la absoluta ficción que la mantenía unida, te volvías un fanático rígido como Voss, o te secabas por dentro hasta ser polvo, como el Canciller Thorne.
+—Adelante.
 
-—Adelante —dijo, sin alzar la voz, percibiendo el cambio en la luz del pasillo bajo el resquicio de la pesada puerta de roble.
+El Capitán Kael entró. Treinta años, casa menor sin tierras, sacado por Maren de un sótano de logística porque era capaz de retener siete instrucciones contradictorias sin escribir ninguna y sin hacer preguntas sobre el honor.
 
-La puerta se abrió con un clic perfectamente aceitado. Entró el Capitán Kael, su ayudante personal. Kael era un hombre de treinta años, perteneciente a una casa menor de Ornast que apenas tenía tierras. Maren lo había sacado de un oscuro departamento de logística no por su linaje, sino porque Kael era una rareza en la capital: un hombre capaz de retener en su memoria siete instrucciones operativas complejas, cruzadas, y contradictorias, sin tener que escribirlas en papel, y capaz de ejecutarlas sin hacer preguntas estúpidas sobre el "honor militar".
+Cerró la puerta. Se quedó en posición de descanso, tres pasos del escritorio.
 
-Kael cerró la puerta y se quedó en posición de descanso militar, a tres pasos del escritorio.
+—General. Confirmación desde la Calle de los Cambistas. El contacto en la Casa Aurelian ha recibido la solicitud de los fondos. Declan Aurelian ha viajado esta mañana hacia Solmara en diligencia rápida.
 
-—General. Tenemos confirmación desde la Calle de los Cambistas. El contacto en la Casa Aurelian ha recibido la solicitud de los fondos.
+Maren giró la copa, observando cómo la luz dorada del techo se refractaba en el licor.
 
-—¿Lena la recibió en persona? —Maren giró la copa de licor, observando cómo la luz dorada de la piedra encantada del techo se refractaba en el líquido.
+—Lena manda al sobrino a oler la costa. Sabe que el dinero no es para acorazados. Déjalo ir.
 
-—Negativo, señora. Su sobrino. Declan Aurelian. Y los informantes del puerto confirman que Declan ha viajado en diligencia rápida hacia Solmara esta misma mañana, antes del amanecer.
+—¿No deberíamos interceptarlo? Un accidente con bandidos en la ruta sur...
 
-Maren esbozó una sonrisa. No fue una sonrisa amplia; apenas una tensión en las comisuras de los labios que nunca llegó a los ojos.
+—¿Por qué? Si le cortamos el paso, Lena sabe que tenemos pánico. La paranoia de un banquero es más peligrosa que su curiosidad. Que llegue a Solmara. Que pregunte en las tabernas. Solo encontrará las migas que yo misma dejé caer.
 
-—Lena es rápida. Siempre lo ha sido. Mandar a Declan a oler la costa significa que sabe perfectamente que el préstamo no es para construir acorazados. Está intentando rastrear el dinero real. Está intentando averiguar con qué capitanes me estoy reuniendo en la sombra.
+—Trescientas mil águilas, General. Si la transacción llega al Consejo de Finanzas...
 
-—¿Deberíamos interceptar a Declan Aurelian en el camino, General? Un... accidente con bandidos en la ruta sur podría disuadir futuras inspecciones.
+—No llegará. Tres gremios mercantiles en Solmara, cuentas de fideicomiso ciego. Justificación legal: inversión en protección marítima contra piratería.
 
-—¿Por qué demonios haríamos eso, Kael? —Maren suspiró, tomando un sorbo del licor. El líquido le quemó la garganta, cálido y fuerte—. Si le cortamos el paso al chico, Lena sabrá que tenemos verdadero pánico a lo que pueda encontrar. La paranoia de un banquero es mucho más peligrosa que su curiosidad. Si lo dejamos llegar a Solmara y hacer sus estúpidas preguntas en las tabernas de los estibadores, solo encontrará las migas de pan que yo misma he dejado caer para que las siga.
-
-Kael asintió, asimilando la lección de contrainteligencia básica sin inmutarse.
-
-—Trescientas mil águilas de oro, General. Es una suma... monstruosa. Equivale al presupuesto anual de dos regimientos pesados. El Consejo de Finanzas podría hacer preguntas incómodas si la transacción llega a sus registros, y Lord Voss podría usarlo en su contra.
-
-—La transacción no llegará a ningún registro oficial de Ornast, Kael. Se fragmentará a través de tres gremios mercantiles independientes en Solmara, utilizando cuentas de fideicomiso ciego. Y se justificará legalmente como inversión privada en "rutas de protección extendida contra la piratería marítima". A todo el mundo, desde el tendero hasta Thorne, le gusta sentirse seguro contra la piratería en alta mar.
-
-—Especialmente cuando no ha habido un ataque pirata reportado en doce años, señora.
+—No ha habido un ataque pirata en doce años, señora.
 
 —Exacto. Nada protege tan bien el dinero como financiar la defensa contra un enemigo que no existe.
 
-Maren se levantó del sofá de cuero y caminó hacia el mapa de la pared. El cuero de sus botas crujió levemente contra la madera pulida del suelo. Pasó la mano por el extremo occidental del mapa. Más allá del ducado de Valdren, había una mancha grisácea, artísticamente difuminada, rotulada en caligrafía fina como *Territorios Occidentales No Reclamados*. El Imperio, en su arrogancia, prefería tratar como inexistente aquello que no gravaba con impuestos.
+Maren se levantó y caminó hacia el mapa. El cuero de sus botas crujió contra la madera pulida. Pasó la mano por el extremo occidental, donde la cartografía se difuminaba en una mancha grisácea rotulada como *Territorios Occidentales No Reclamados*. El Imperio trataba como inexistente aquello que no gravaba con impuestos.
 
-Pero Maren sabía que esos territorios existían. Y sabía que ahora mismo, ardían.
+Esos territorios ardían. No llegaba humo literal a Ornast, pero sí los informes de los puestos fronterizos, las cartas de gobernadores pidiendo tropas que no había, y el pánico de los comerciantes que veían cortadas las rutas del cereal.
 
-El humo de esos incendios lejanos llegaba a Ornast. No literalmente, pero sí en los informes desesperados de los puestos de observación fronterizos, en las cartas de los gobernadores menores pidiendo tropas que no había, y en el pánico ciego que infectaba a los comerciantes que veían cortadas las rutas del cereal de occidente. 
+Esa mañana, el Consejo de Guerra había perdido cuatro horas con el Problema del Oeste. Voss, predecible hasta el tedio, golpeando la mesa con su puño anillado, exigiendo que la Tercera Legión marchara hacia Valdren. Maren lo había bloqueado con gráficos de logística y paciencia condescendiente, porque mover la Tercera dejaba el corredor sur expuesto y colapsaba la cadena de suministro. Argumentos verdaderos, pero que escondían la razón real: Maren estaba convencida de que el Rey Demonio era un espejismo. Una distracción espectacular mientras la infección de verdad devoraba el cuerpo del Imperio desde el centro.
 
-Esa misma mañana, el Consejo de Guerra había desperdiciado cuatro horas enteras discutiendo el "Problema del Oeste". Voss, predecible hasta el aburrimiento, había exigido, golpeando la mesa con su puño anillado, que la Tercera Legión, acantonada en las reservas centrales, marchara de inmediato hacia la frontera occidental de Valdren para hacer frente al Rey Demonio. Un despliegue de fuerza total.
+—Kael. Deserción real en Veth. La verdad, no el cuento que le mandamos a Thorne.
 
-Maren lo había bloqueado.
+Kael dudó. En él, eso era pánico.
 
-Había argumentado, usando gráficos y partes de logística redactados por el propio ministerio, que mover a la Tercera Legión ahora dejaría el corredor sur completamente expuesto a saqueadores y cortaría la principal ruta de importación de patatas. Había explicado, con paciencia condescendiente, que la cadena de suministro actual colapsaría bajo el peso de cincuenta mil hombres marchando en pleno invierno. Había destrozado el argumento táctico de Voss porque era, sencillamente, mejor estratega que él.
+—El informe oficial dice tres por ciento. Los enlaces en intendencia estiman siete. Y acelerando. Las patrullas salen con doce y vuelven con diez. A veces con ocho. Sin enfrentamientos. Sin cadáveres. Simplemente no vuelven a formar por la mañana.
 
-Pero sus argumentos logísticos, aunque verdaderos, eran solo una excusa. La verdadera razón por la que Maren se negaba a mover tropas hacia el oeste era otra. 
+Siete por ciento. Maren apartó la mano del mapa.
 
-Maren estaba convencida de que el Rey Demonio era un espejismo letal, una distracción espectacular mientras la verdadera infección devoraba el cuerpo del Imperio desde el centro.
+—Sin ejército enemigo. Sin flechas. Solo barro y granjeros que ni siquiera los miran. Y los nuestros se evaporan.
 
-—Kael —dijo, su dedo índice acariciando suavemente una ficha roja clavada en el centro de Veth—. Dime la verdad cruda, no el resumen que le enviamos a Thorne. ¿Cuál es la tasa de deserción mensual en la Guarnición Central de Veth este trimestre?
+—Las raciones se han reducido un diez por ciento. Las botas no se reemplazan. La moral...
 
-Kael dudó. Fue una duda imperceptible para cualquiera que no lo conociera bien, un pequeño parpadeo, pero en Kael era el equivalente a un ataque de pánico.
+—No es moral. La moral afecta cómo luchas. Esto es que el recluta de Kethara entra en una cabaña de Veth y ve que la mujer a la que le está quitando el grano tiene la misma cara que su madre. No se amotina. No organiza nada. Se quita la casaca, la cambia por ropa de civil y desaparece en la llanura.
 
-—La cifra reportada oficialmente al Consejo es del tres por ciento, señora.
+Maren volvió al escritorio. Se apoyó en el borde, cruzó los brazos.
 
-—No te he preguntado por el cuento de hadas oficial. Te he preguntado por la verdad de la zanja.
+—Eso es lo que me quita el sueño. No el Rey Demonio. El Demonio es un cuento para Voss. Mientras él mira al oeste buscando monstruos, el suelo de Veth se convierte en arena movediza bajo nuestras botas. Drago está perdido en el desierto jugando a ser un dios. Thorne cree que los problemas se solucionan con nuevos decretos.
 
-Kael tragó saliva.
-
-—Mis enlaces en las suboficialías de intendencia estiman que el número real está más cerca del siete por ciento, General. Y la curva se está acelerando en el último mes. Tenemos patrullas de doce hombres que salen a recaudar tributos y regresan con diez. Otras regresan con ocho. No reportan enfrentamientos armados. No hay cadáveres que recuperar. Los hombres... simplemente no vuelven a formar filas por la mañana. Se desvanecen en la llanura.
-
-Siete por ciento.
-
-Maren apartó la mano del mapa como si las fichas de madera quemaran.
-
-—Un siete por ciento de deserción continua en una fuerza de ocupación pacífica —murmuró, paladeando la toxicidad de los números—. Sin un ejército enemigo al frente. Sin flechas volando sobre sus cabezas. Sin batallas campales. Solo barro, campos de trigo pelados, y granjeros que ni siquiera se atreven a mirarles a los ojos.
-
-—La moral está en su punto histórico más bajo, señora. Las raciones de las guarniciones provinciales se han reducido un diez por ciento la semana pasada para asegurar los graneros de la capital. El frío aprieta, las botas no se reemplazan...
-
-—No te confundas, Kael. Esto no es un problema de moral. La moral afecta la forma en que los hombres luchan. Esto es putrefacción. Es disolución estructural.
-
-Maren se giró, caminando de vuelta al escritorio y apoyándose en el borde, cruzando los brazos.
-
-—El Imperio ha caído en la ilusión más peligrosa que puede tener un estado: creer que el ejército es una cosa separada del pueblo que lo sostiene. Creemos que porque les ponemos casacas de lana tintada y les damos lanzas con el sello del Águila, esos hombres en Veth van a obligar mágicamente a los aldeanos a pagar el tributo. Pero esos soldados... son granjeros de Kethara. Son hijos de pescadores pobres de Solmara. Son mineros del norte. Son la misma gente a la que están oprimiendo, solo que con un uniforme barato y botas mojadas.
-
-Maren miró a su ayudante a los ojos, forzándolo a sostener la mirada.
-
-—¿Qué pasa, Capitán Kael, cuando el Águila deja de poner comida en el plato de esos soldados? ¿Qué pasa cuando el recluta raso, hambriento y harto, entra en una cabaña de barro y se da cuenta de que la mujer a la que le está confiscando el último saco de grano tiene el mismo hambre desesperado, y el mismo color de piel, y la misma desesperación en los ojos que su propia madre?
-
-—Motín, señora. Una sublevación de la tropa.
-
-—Falso —espetó Maren, sacudiendo la cabeza—. Eres demasiado militar, Kael. El motín requiere una organización clandestina. Requiere líderes carismáticos, agravios articulados, una chispa que encienda el barril de pólvora. Los soldados de Veth están demasiado agotados, demasiado aislados unos de otros para organizar un motín. Lo que pasa es esto: el desmoronamiento silencioso. Desaparecen de noche. Venden la cota de malla imperial a un buhonero por dos hogazas de pan y ropa de civil, y se unen a los aldeanos. Porque en Veth, el aldeano al menos sabe dónde encontrar un pozo que no está seco, y cómo hacer una sopa con raíces salvajes. El ejército imperial se está disolviendo en el pueblo que se supone debe subyugar. 
-
-Volvió a agarrar su copa de licor.
-
-—Por eso el Rey Demonio no me quita el sueño. Es un cuento para asustar a los niños grandes del Consejo de Guerra. Mientras Voss, en su infinita miopía, mira al oeste buscando monstruos con cuernos, el puto suelo de Veth se está convirtiendo en arena movediza bajo nuestras propias botas. Drago está perdido en el desierto sur jugando a ser un dios-esclavo. Thorne cree que los problemas se solucionan redactando nuevos decretos de recaudación. Y el Emperador...
-
-La palabra quedó flotando en el aire del despacho. 
-
-Maren hizo una pausa. Su mente reprodujo la escena de la cena de estado de la noche anterior con nitidez cristalina. El choque de cubiertos de plata. La charla vacía sobre acuñación. Y luego, el silencio. El silencio profundo y antinatural que había caído sobre la mesa cuando Dacius, el chico que llevaba quince años siendo un adorno de mármol que respiraba, abrió la boca.
+Hizo una pausa. Pensó en la cena de la noche anterior. El choque de cubiertos de plata. La charla sobre acuñación. Y de repente, el silencio. El chico que llevaba quince años firmando sin leer había abierto la boca.
 
 *—¿Cómo está la cosecha de Veth?*
 
-Quince años firmando papeles sin mirar, quince años de apatía domesticada, y de repente, una pregunta precisa, cortante, dirigida al centro geográfico y económico exacto del colapso del Imperio. No había preguntado por los astilleros de Solmara. Ni por las herrerías de Kethara. Había apuntado directo a la yugular del problema: Veth.
+Quince años de apatía domesticada, y de repente, la pregunta exacta. No los astilleros. No las herrerías. Veth. La yugular.
 
-—El Emperador... —continuó Maren, saboreando el concepto lentamente— ...el chico quizá esté empezando a leer documentos en lugar de solo firmarlos.
+—El chico —dijo Maren, casi para sí misma— está empezando a leer los documentos que firma.
 
-Kael se tensó ligeramente.
+—¿Deberíamos preocuparnos por el Emperador, General?
 
-—¿Deberíamos preocuparnos por el joven Dacius Maximiliano, General? ¿Representa un riesgo para la cadena de mando?
+Maren soltó una carcajada corta.
 
-Maren soltó una carcajada genuina, breve y afilada como un cuchillo de trinchar.
+—No te preocupes por el pobre Emperador. Preocúpate por los que entrarán en pánico cuando empiece a hacer preguntas de verdad. Thorne lo ahogará en burocracia. Caelius lo ahogará en sermones. Voss querrá usarlo de estandarte.
 
-—Oh, no, Kael. Por todos los dioses, nunca te preocupes por el pobre Emperador. Preocúpate por los hombres en este palacio que entrarán en pánico e intentarán controlarlo violentamente cuando el chico empiece a hacer preguntas de verdad y exija respuestas reales. Thorne intentará asfixiarlo bajo toneladas métricas de burocracia. El Sumo Sacerdote Caelius intentará ahogarlo en sermones sobre la fe ciega y la voluntad divina. Voss querrá usarlo como figura decorativa para una guerra que no podemos ganar.
+Dejó la copa sobre la mesa con un golpe seco.
 
-Maren apuró el último trago de licor y dejó la copa sobre la madera del escritorio con un chasquido.
+—Nosotros no. Nosotros nos aseguraremos de que, cuando la madera cruja y el agua empiece a entrar, tengamos dónde caer.
 
-—Pero nosotros no. Nosotros no vamos a intentar controlar a un chico desesperado en un barco que se va a pique. Nosotros, Capitán, nos aseguraremos de que, cuando la madera cruja y el agua empiece a entrar a raudales, tengamos un lugar muy cómodo donde caer.
+Las trescientas mil águilas eran exactamente para eso. No un golpe de estado —los golpes eran ruidosos, sangrientos y requerían la locura de querer gobernar el desastre resultante—. El plan era más simple y más cobarde y más inteligente: una flota mercante de calado profundo atracada en calas secundarias al sur de Solmara. Tripulaciones de veteranos sin lealtad, pagadas en plata sin marcar. Provisiones para tres años. Ruta trazada hacia los archipiélagos del Mar del Sur.
 
-—¿Las trescientas mil águilas son para eso, General?
+Evacuación selectiva. El bote salvavidas de alguien que ve el iceberg mientras la orquesta sigue tocando.
 
-—Las trescientas mil águilas son exactamente para eso.
+—Prepara mensaje en clave grado cuatro para nuestro enlace en Valdren —dijo Maren, volviendo al tono marcial—. Libre tránsito en la ruta sur. Y nota personal para el Duque: que no se asuste por los cuentos del Demonio.
 
-El plan que Maren albergaba en la privacidad de su propia mente no era la planificación de un golpe de estado militar. Los golpes de estado eran operaciones de aficionados: arriesgadas, excesivamente ruidosas, y casi siempre sangrientas. Y peor aún, requerían asumir la responsabilidad de gobernar el desastre resultante. Maren no tenía ni el más mínimo interés romántico en atarse al timón de un imperio que, financieramente y moralmente, estaba en quiebra técnica.
+—¿Alguna directiva para las fuerzas en Veth?
 
-Su plan era la logística suprema de la supervivencia egoísta: la evacuación selectiva.
+—Sí. Orden directa, confidencial, sin registro central. A todos los mandos de rango intermedio, de teniente para abajo. Que cesen la presión en el tributo. Que relajen cuotas. Que miren para otro lado si faltan sacos.
 
-Con ese dinero, estaba fletando una pequeña pero moderna flota mercante de calado profundo, atracada discretamente en calas secundarias al sur del gran puerto de Solmara, muy lejos de los muelles de la Armada Imperial y de los inspectores de aduanas. Las tripulaciones estaban siendo reclutadas entre veteranos sin lealtades políticas, y pagadas generosamente, por adelantado, en plata sin marcar. Los barcos estaban siendo pertrechados con provisiones para tres años. Sus rutas estaban trazadas, y los sobornos pagados, para asegurar un paso libre hacia los archipiélagos independientes del Mar del Sur. Un refugio blindado, inalcanzable, muy lejos de las fronteras continentales donde el hipotético Rey Demonio, o el hambre mucho más real, o la inevitable revolución campesina de Veth pudieran salpicarla de sangre.
+—El Ministerio de Comercio exige recaudación estricta. Si relajamos Veth, los ingresos se desploman...
 
-Seraphina Maren no iba a salvar al Imperio del Águila de Dos Cabezas. Simplemente era la primera General en toda la historia de la nación en tener la inteligencia de admitir que el Imperio, de hecho, ya estaba muerto y no podía ser salvado.
+—Me importa un carajo Comercio. Si aprietan un grado más, Veth explota antes de que mis barcos tengan los mástiles puestos. Necesito nueve meses. Doce si los astilleros se retrasan. Que justifiquen la bajada con clima adverso, plaga de langostas, lo que quieran. Me da igual la mentira siempre que dejen de estrangular a la gente del barro.
 
-—Prepara un mensaje en clave de grado cuatro para nuestro enlace naval encubierto en Valdren —ordenó Maren, su tono volviendo a la eficiencia marcial—. Diles que las garantías para el libre tránsito marítimo de mercancías civiles en la ruta sur siguen en pie. Y añádele una nota personal para el Duque: dile que no se deje asustar por los cuentos de fantasmas sobre el Demonio del Oeste. Valdren está lo suficientemente protegido geográficamente para darnos tiempo.
+—Claro, General Maren.
 
-Kael asintió bruscamente, archivando las instrucciones.
+Kael saludó y salió. La puerta se cerró.
 
-—A la orden. ¿Alguna directiva adicional para las fuerzas regulares, General?
+Maren se quedó sola frente al mapa. Miró la extensión marrón de Veth. Pensó en los soldados que no volvían a formar, cambiando la cota de malla por ropa andrajosa. Pensó en las madres dividiendo hogazas en fracciones microscópicas. Pensó en Dacius, el chico pálido del trono demasiado grande, que acababa de hacer su primera pregunta.
 
-—Sí. Y esto es vital. Envía una orden directa, confidencial y sin registro central a todos los mandos de rango intermedio desplegados en Veth, desde los tenientes de compañía para abajo. Ordénales que cesen de inmediato la presión hostil en la recolección del tributo agrario. Que se relajen en las cuotas. Que miren para otro lado si faltan sacos.
+Se sirvió otra copa. Le tembló la mano. Derramó un poco sobre la madera del escritorio, donde la mancha se expandió lentamente, oscureciendo la veta del roble.
 
-Kael parpadeó, y esta vez la confusión traspasó su máscara profesional.
-
-—Pero, señora... el Ministerio de Comercio y el Consejo de Finanzas exigen la recolección estricta del tributo para mantener la solvencia a corto plazo del tesoro en la capital. Si relajamos la presión sobre Veth, los ingresos fiscales se desplomarán antes de fin de mes. Thorne se volverá loco.
-
-—Me importa un absoluto carajo lo que exija Comercio, y me importa aún menos la salud mental de Thorne —replicó Maren, con voz baja y peligrosa—. Si nuestros idiotas en uniforme aprietan a los granjeros de Veth un grado más, Veth explotará en una revuelta campesina generalizada antes de que mis barcos tengan sus malditos mástiles instalados y el flete cargado. La rebelión es matemática básica de la presión y el hambre. 
-
-Se acercó a Kael hasta estar a un palmo de su rostro.
-
-—Necesitamos nueve meses, Kael. Doce meses si los astilleros se retrasan por el clima invernal. Diles a los comandantes que justifiquen la bajada en la recaudación alegando "problemas logísticos locales", "condiciones climáticas adversas", o que se inventen una puta plaga de langostas si hace falta. No me importa la mentira que escriban en sus informes, siempre y cuando dejen de estrangular a la gente del barro. Necesito que esa olla a presión tarde al menos un año en estallar. Necesito comprar tiempo, y voy a pagarlo cediendo su grano. ¿Queda claro?
-
-—Perfectamente claro, General Maren.
-
-Kael saludó con precisión militar, dio media vuelta sobre sus talones y salió del despacho, la puerta cerrándose tras él con un sonido seco que pareció sellar la habitación.
-
-Seraphina Maren se quedó sola, rodeada por el lujo oscuro de su puesto, de pie frente al inmenso y equivocado mapa del mundo.
-
-Miró fijamente la vasta extensión marrón que representaba Veth, el centro muerto, el estómago vacío del Imperio. Pensó en los soldados que no regresaban a sus barracones, intercambiando honor imperial por ropa andrajosa y anonimato. Pensó en las madres desesperadas en granjas de barro, dividiendo hogazas de pan negro en fracciones microscópicas para mantener a sus hijos con vida un día más. Y pensó, sorprendentemente, en Dacius, un chico pálido confinado en un trono que le venía grande, que por fin, quince años tarde, estaba empezando a asomarse por encima de las montañas de papel que lo mantenían ciego, atreviéndose a hacer una pregunta para la que nadie en Ornast tenía una respuesta que no fuera una condena.
-
-Maren tomó la botella de licor de Valdren por el cuello y se sirvió otra copa, derramando un poco sobre el escritorio en su apuro.
-
-El barco se hundía, crujiendo por cada cuaderna, llenándose de agua helada en las bodegas inferiores, y la orquesta, compuesta por idiotas orgullosos en el Consejo, seguía tocando valses como si la noche fuera a durar para siempre. Seraphina Maren ya tenía su billete pagado para el único bote salvavidas fiable, pero la ironía cruel de su posición era que todavía tenía que caminar por las lujosas cubiertas superiores del barco, sonriendo, dando órdenes y fingiendo que el casco de acero era invulnerable.
-
-Y eso, de alguna forma profunda y desgastante, era mucho más agotador que dirigir un combate real.
+El barco se hundía. La orquesta tocaba. Y Maren, que no era tonta pero tampoco era valiente, ya tenía el billete del bote. Lo que no tenía era la certeza de que el bote llegaría a tiempo.

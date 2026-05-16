@@ -1,5 +1,6 @@
-# 📚 HISTORIA DE CUATRO REINOS Y UN DUCADO
-### *Proyecto de Escritura Creativa*
+# 🦅 UNIVERSO ORNAST
+
+*Proyecto de escritura creativa multi-libro. Dark fantasy político-coral con magia funcional. Anti-Tolkien, pro-Vietnam.*
 
 ---
 
@@ -11,42 +12,72 @@
 
 ---
 
-## 📁 Estructura del Proyecto
+## 📁 Estructura del proyecto
 
 ```
 Escritura creativa/
 │
-├── 📖 Borradores/                    ← Capítulos en progreso
+├── 🦅 Universo/                            ← Compartido por todas las obras
+│   ├── canon.md                            ← Fuente de verdad del universo
+│   ├── Mundo/                              ← Geografía, política, magia, economía
+│   ├── Investigacion/                      ← Referentes históricos, vida cotidiana
+│   ├── Personajes/                         ← (vacío) Personajes compartidos entre libros
+│   └── Ilustraciones/                      ← Imágenes del mundo
 │
-├── 👤 Personajes/
-│   ├── personajes_principales.md     ← Resumen general
-│   ├── dacius.md                     ← Ficha completa de Dacius
-│   ├── matt.md                       ← Ficha completa de Matt
-│   ├── personajes_por_crear.md       ← 10 propuestas nuevas
-│   └── mapa_relaciones.md            ← Quién necesita a quién
+├── 📚 Libros/                              ← Obras del universo
+│   │
+│   ├── cuatro-reinos/                      ← ▶ ACTIVO
+│   │   ├── masterguide.md                  ← Biblia del libro
+│   │   ├── masterguide.docx                ← Versión Word (legacy)
+│   │   ├── Borradores/                     ← Capítulos (23 + apertura)
+│   │   ├── Personajes/                     ← Fichas
+│   │   └── Esquema/                        ← Estructura, estilo, dossier editorial
+│   │
+│   └── dios/                               ← ◌ PLANEADO
+│       └── masterguide.md                  ← Planeación inicial
 │
-├── 🗺️ Mundo/
-│   ├── atlas.md                      ← Territorios y geografía
-│   ├── linea_temporal.md             ← Cronología pre-novela
-│   ├── economia_imperial.md          ← Cómo funciona la máquina
-│   ├── estructura_militar.md         ← Ejército, generales, soldados
-│   ├── estructura_politica.md        ← Facciones, pilares del poder
-│   ├── sistema_de_magia.md           ← Reglas, límites, por territorio
-│   └── culturas_y_costumbres.md      ← Comida, ropa, idiomas, rituales
+├── 🌐 lector/                              ← Frontend web del universo
+│   ├── index.html
+│   ├── style.css
+│   ├── app.js
+│   ├── iniciar.bat                         ← Doble clic para lanzar
+│   ├── iniciar.ps1
+│   └── LEER.md                             ← Instrucciones
 │
-├── 📐 Esquema/
-│   ├── estructura_narrativa.md       ← Arcos y actos
-│   ├── capitulos_detallados.md       ← Capítulo a capítulo
-│   └── guia_de_estilo.md             ← Cómo se escribe esta novela
-│
-├── 🔍 Investigación/
-│   ├── referentes_historicos.md      ← Vietnam, colonialismo, dictaduras
-│   └── vida_cotidiana.md             ← Precios, comida, casa, trabajo
-│
-├── masterguide_cuatro_reinos.docx    ← Documento original
-├── masterguide_cuatro_reinos.md      ← Versión Markdown
-└── README.md                         ← Este archivo
+├── .claude/                                ← Configuración del asistente
+└── README.md                               ← Este archivo
 ```
+
+---
+
+## 🌍 El universo
+
+**Ornast** es el universo narrativo. Lleva el nombre del fundador del Imperio (Maximiliano Ornast) — el universo se nombra por el poder cuya caída es el tema. Ver `Universo/canon.md` para la fuente de verdad: principios narrativos, hechos canónicos, geografía compartida, cronología grande.
+
+---
+
+## 📖 Obras
+
+### `Libros/cuatro-reinos/` — ▶ Activo
+
+**Historia de cuatro reinos y un ducado.** Novela coral. ~500.000 palabras objetivo (100-150 capítulos). 23 capítulos + apertura escritos. Acto III en curso.
+
+Prosa McCarthy / Grossman. Tres actos:
+- I (caps 1-9): El Águila que mira en dos direcciones.
+- II (caps 10-21): Las costuras se ven.
+- III (cap 22 en adelante): Nadie dio la orden. Todos dieron la orden.
+
+### `Libros/dios/` — ◌ Planeado
+
+**Dios** (título provisional). Novela corta hagiográfica. Vida de Maximiliano Ornast contada por un cura excomulgado por escribirla. Tono opuesto a *Cuatro Reinos*: grandilocuente, oficial, irónicamente devoto. Ver `Libros/dios/masterguide.md`.
+
+---
+
+## 🌐 Lector web
+
+Doble clic en `lector/iniciar.bat` (Windows + Python). Abre el navegador en `http://localhost:8765/lector/`. Ver `lector/LEER.md` para detalle.
+
+Plan: migrar a Astro + desplegar en Vercel cuando la base esté.
 
 ---
 
@@ -64,45 +95,15 @@ Escritura creativa/
 
 ---
 
-## ⌨️ Atajos útiles
+## 🚩 Flag de trazabilidad IA
 
-- **Zen Mode:** `Ctrl+K` → `Z` (modo escritura sin distracciones)
-- **Preview Markdown:** `Ctrl+Shift+V`
-- **Buscar en proyecto:** `Ctrl+Shift+F`
-- **Contador de palabras:** Visible en la barra inferior
+- **Caps 1-15 (*Cuatro Reinos*)**: Claude Opus.
+- **Caps 16-23 (*Cuatro Reinos*)**: Gemini 1.5 Pro (borrador) → reescritos por Claude Opus tras auditoría tonal.
+- **Caps 24 en adelante**: Claude Opus.
+- **Apertura del lector**: Claude Opus.
+- **Canon del universo y masterguide de Dios**: Claude Opus.
 
----
-
-## 🎯 Estado Actual
-
-### ✅ Fundamentos completados
-- [x] Masterguide leído y procesado
-- [x] Estructura del proyecto
-- [x] Atlas del mundo (6 territorios)
-- [x] Línea temporal (60 años de historia)
-- [x] Economía imperial (flujo de riqueza, tributos, monedas)
-- [x] Estructura militar (4 generales, jerarquía, guarniciones)
-- [x] Estructura política (5 pilares, facciones, gobernadores)
-- [x] Sistema de magia (reglas, límites, Duren Sakh)
-- [x] Culturas y costumbres (comida, ropa, idioma, rituales × 6 territorios)
-- [x] Fichas de personajes (Dacius, Matt — completas)
-- [x] 10 personajes nuevos propuestos
-- [x] Mapa de relaciones
-- [x] Estructura narrativa (3 actos)
-- [x] Desglose por capítulos (7 detallados + esbozos)
-- [x] Guía de estilo (voz por POV, principios, referentes)
-- [x] Referentes históricos
-- [x] Vida cotidiana medieval (precios, comida, casas)
-
-### 🔥 Borradores en progreso
-- [x] **ACTO I COMPLETADO** (Capítulos 1 al 8)
-- [x] **ACTO II EN PROGRESO** (Capítulos 9 al 23)
-
-> 🚩 **FLAG DE TRACKEO DE IA:** 
-> - **Capítulos 1 al 15:** Escritos utilizando Claude Opus.
-> - **Capítulos 16 al 23:** Borrador inicial por Gemini 1.5 Pro → **reescritos por Claude Opus 4.6** tras auditoría de calidad (prosa abstracta, monólogos expositivos, adjetivos apilados). Se mantuvieron las tramas y beats narrativos; se reescribió toda la prosa para recuperar la voz física y sensorial del Acto I.
-> - **Capítulos 24 en adelante:** Claude Opus 4.6.
-> *(Esta marca se mantiene a petición del autor para evaluar la consistencia y calidad de prosa tras cambios de modelo.)*
+Esta marca se mantiene para evaluar consistencia entre motores. Ver `Libros/cuatro-reinos/Esquema/notas_de_proceso.md` para detalle.
 
 ---
 

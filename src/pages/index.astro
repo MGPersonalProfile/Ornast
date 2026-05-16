@@ -1,0 +1,216 @@
+---
+import Base from '@layouts/Base.astro';
+import Topbar from '@components/Topbar.astro';
+import Eagle from '@components/Eagle.astro';
+import { getCollection } from 'astro:content';
+
+const libros = (await getCollection('libros')).sort(
+  (a, b) => a.data.orden_publicacion - b.data.orden_publicacion
+);
+---
+
+<Base
+  title="Universo Ornast"
+  description="Universo narrativo multi-libro. Dark fantasy político-coral. Una serie principal y varias crónicas que también pesan."
+>
+  <Topbar kicker="" title="" />
+
+  <main class="universe">
+    <header class="hero">
+      <Eagle size={120} class="eagle-big" />
+      <h1 class="hero-title">Universo Ornast</h1>
+      <p class="hero-deck">
+        Expediente narrativo abierto. Crónica del colapso de un imperio que se cae mientras
+        nadie en concreto lo está manejando. Sin elegidos. Sin magia que salve. Una serie
+        principal y varias crónicas que también pesan.
+      </p>
+    </header>
+
+    <div class="verse-block">
+      <em>Los hombres muertos no cuentan historias.</em><br />
+      <em>Los niños vivos no tienen poder.</em><br />
+      <em>Las mujeres nunca tendrán gloria.</em><br />
+      <em>Pero si hay algo que todo el pueblo sabe,</em><br />
+      <em class="verse-last">es que Dacius Maximiliano va a caer.</em>
+    </div>
+
+    <section class="books">
+      <h2 class="section-title">Obras del universo</h2>
+      <div class="books-grid">
+        {libros.map((libro) => {
+          const slug = libro.id.split('/')[0]!;
+          const estadoLabel = libro.data.estado === 'activo'
+            ? '▶ En curso'
+            : libro.data.estado === 'planeado'
+              ? '◌ Planeado'
+              : '✓ Completado';
+          return (
+            <a class:list={['book-card', `book-state-${libro.data.estado}`]} href={`/${slug}`}>
+              <div class="book-state">{estadoLabel}</div>
+              <h3 class="book-title">{libro.data.titulo}</h3>
+              {libro.data.subtitulo && (
+                <p class="book-subtitle">{libro.data.subtitulo}</p>
+              )}
+              <p class="book-description">{libro.data.descripcion}</p>
+              <span class="book-cta">
+                {libro.data.estado === 'activo' ? 'Leer →' : 'Ver más →'}
+              </span>
+            </a>
+          );
+        })}
+      </div>
+    </section>
+
+    <footer class="universe-footer">
+      <p>
+        Repositorio público en
+        <a href="https://github.com/MGPersonalProfile/Ornast" target="_blank" rel="noopener noreferrer">
+          GitHub
+        </a>. Toda la prosa, el canon y el código son consultables.
+      </p>
+    </footer>
+  </main>
+</Base>
+
+<style>
+  .universe {
+    max-width: 64rem;
+    margin: 0 auto;
+    padding: calc(var(--topbar-h) + 4rem) clamp(1.5rem, 4vw, 4rem) 6rem;
+    position: relative;
+    z-index: 5;
+  }
+
+  .hero {
+    text-align: center;
+    margin-bottom: 3.5rem;
+  }
+  :global(.eagle-big) {
+    color: var(--accent);
+    margin: 0 auto 1.4rem;
+    display: block;
+  }
+  .hero-title {
+    font-family: var(--font-display);
+    font-weight: 500;
+    font-size: clamp(2.4rem, 5vw, 3.4rem);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin: 0 0 1.4rem;
+    color: var(--text);
+  }
+  .hero-deck {
+    max-width: 36rem;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 1.65;
+    color: var(--text-soft);
+    font-style: italic;
+  }
+
+  .verse-block {
+    text-align: center;
+    font-family: var(--font-body);
+    font-style: italic;
+    font-size: 1.05rem;
+    line-height: 2.05;
+    color: var(--text);
+    margin: 0 auto 4rem;
+    max-width: 32rem;
+    padding: 2rem 0;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+  }
+  .verse-last {
+    color: var(--accent);
+  }
+
+  .section-title {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+    color: var(--text-faint);
+    text-align: center;
+    margin: 0 0 2rem;
+  }
+
+  .books-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1.5rem;
+  }
+
+  .book-card {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    padding: 1.8rem 1.6rem;
+    border-radius: 4px;
+    transition: border-color 0.2s ease, transform 0.2s ease, background 0.2s ease;
+    color: var(--text);
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+  .book-card:hover {
+    border-color: var(--accent);
+    background: var(--surface-2);
+    transform: translateY(-2px);
+  }
+  .book-state {
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--text-faint);
+  }
+  .book-state-activo .book-state {
+    color: var(--accent);
+  }
+  .book-title {
+    font-family: var(--font-display);
+    font-weight: 500;
+    font-size: 1.4rem;
+    letter-spacing: 0.04em;
+    margin: 0;
+    color: var(--text);
+    line-height: 1.2;
+  }
+  .book-subtitle {
+    font-family: var(--font-body);
+    font-style: italic;
+    font-size: 0.9rem;
+    color: var(--text-soft);
+    margin: 0;
+  }
+  .book-description {
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--text-soft);
+    margin: 0.4rem 0 0;
+  }
+  .book-cta {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-top: 0.6rem;
+  }
+
+  .universe-footer {
+    text-align: center;
+    margin-top: 5rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--rule);
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
+    color: var(--text-faint);
+  }
+  .universe-footer a {
+    color: var(--accent);
+    border-bottom: 1px dotted currentColor;
+  }
+</style>

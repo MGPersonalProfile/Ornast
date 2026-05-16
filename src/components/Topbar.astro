@@ -1,0 +1,95 @@
+---
+import ThemeToggle from './ThemeToggle.astro';
+import Eagle from './Eagle.astro';
+
+interface Props {
+  kicker?: string;
+  title: string;
+  homeUrl?: string;
+}
+
+const { kicker = 'Universo Ornast', title, homeUrl = '/' } = Astro.props;
+---
+
+<header class="topbar">
+  <a class="topbar-home" href={homeUrl} aria-label="Volver al universo">
+    <Eagle size={36} class="eagle" />
+    <span class="topbar-text">
+      <span class="kicker">{kicker}</span>
+      <span class="title">{title}</span>
+    </span>
+  </a>
+
+  <div class="topbar-actions">
+    <ThemeToggle />
+  </div>
+</header>
+
+<style>
+  .topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: var(--topbar-h);
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.2rem;
+    background: linear-gradient(
+      to bottom,
+      var(--bg) 60%,
+      color-mix(in srgb, var(--bg) 80%, transparent)
+    );
+    border-bottom: 1px solid var(--rule-soft);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  }
+
+  .topbar-home {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    color: var(--text);
+    transition: opacity 0.18s ease;
+  }
+  .topbar-home:hover {
+    opacity: 0.78;
+  }
+
+  .eagle {
+    color: var(--accent);
+  }
+
+  .topbar-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+  }
+
+  .kicker {
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--text-faint);
+    line-height: 1;
+    margin-bottom: 0.32rem;
+  }
+
+  .title {
+    font-family: var(--font-display);
+    font-weight: 500;
+    font-size: 0.95rem;
+    letter-spacing: 0.05em;
+    color: var(--text);
+    line-height: 1;
+  }
+
+  .topbar-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+</style>

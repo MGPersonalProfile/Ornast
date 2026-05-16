@@ -1,0 +1,90 @@
+---
+import { toRoman } from '@lib/chapters';
+
+interface Props {
+  numero: number;
+  pov: string;
+  href: string;
+  acto?: string;
+  coral?: boolean;
+  current?: boolean;
+}
+
+const { numero, pov, href, acto, coral = false, current = false } = Astro.props;
+const numLabel = numero === 0 ? '❦' : String(numero).padStart(2, '0');
+---
+
+<a
+  class:list={['ch-card', { current, coral, prologo: numero === 0 }]}
+  href={href}
+  data-chapter={numero}
+>
+  <span class="ch-num">{numLabel}</span>
+  <span class="ch-body">
+    <span class="ch-pov">{pov}</span>
+    {acto && <span class="ch-act">Acto {acto}</span>}
+  </span>
+</a>
+
+<style>
+  .ch-card {
+    display: grid;
+    grid-template-columns: 2.4rem 1fr;
+    align-items: baseline;
+    gap: 0.7rem;
+    padding: 0.55rem 0.6rem 0.55rem 0.7rem;
+    border-left: 1px solid transparent;
+    transition: background 0.18s ease, border-color 0.18s ease, color 0.18s ease;
+    color: var(--text);
+    text-align: left;
+    width: 100%;
+  }
+  .ch-card:hover {
+    background: var(--surface-2);
+    border-left-color: var(--accent-soft);
+  }
+  .ch-card.current {
+    background: var(--surface-2);
+    border-left-color: var(--accent);
+  }
+  .ch-card.current .ch-num,
+  .ch-card.current .ch-pov {
+    color: var(--accent);
+  }
+  .ch-card.coral .ch-pov,
+  .ch-card.prologo .ch-pov {
+    font-style: italic;
+    color: var(--text-soft);
+  }
+  .ch-card.prologo .ch-num {
+    color: var(--accent);
+    font-size: 0.9rem;
+  }
+  .ch-num {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: var(--text-faint);
+    letter-spacing: 0.06em;
+    font-variant-numeric: tabular-nums;
+  }
+  .ch-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    min-width: 0;
+  }
+  .ch-pov {
+    font-family: var(--font-body);
+    font-size: 0.96rem;
+    color: var(--text);
+    line-height: 1.25;
+  }
+  .ch-act {
+    font-family: var(--font-mono);
+    font-size: 0.56rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--text-faint);
+  }
+</style>

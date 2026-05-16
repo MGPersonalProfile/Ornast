@@ -1,0 +1,33 @@
+# Normalizar todos los archivos de texto a LF.
+# Esto evita ruido en los diffs y problemas entre Windows / Mac / Linux / Vercel.
+* text=auto eol=lf
+
+# Tipos explícitos
+*.md     text eol=lf
+*.json   text eol=lf
+*.ts     text eol=lf
+*.js     text eol=lf
+*.mjs    text eol=lf
+*.cjs    text eol=lf
+*.astro  text eol=lf
+*.css    text eol=lf
+*.html   text eol=lf
+*.yaml   text eol=lf
+*.yml    text eol=lf
+*.svg    text eol=lf
+*.txt    text eol=lf
+*.sh     text eol=lf
+
+# Binarios
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.webp   binary
+*.avif   binary
+*.ico    binary
+*.woff   binary
+*.woff2  binary
+*.ttf    binary
+*.otf    binary
+*.docx   binary
+*.pdf    binary

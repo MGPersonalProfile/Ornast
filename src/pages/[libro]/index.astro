@@ -1,0 +1,222 @@
+---
+import Base from '@layouts/Base.astro';
+import Topbar from '@components/Topbar.astro';
+import Sidebar from '@components/Sidebar.astro';
+import { getCollection, getEntry } from 'astro:content';
+import { getCapituloNumero, getCapituloSlug } from '@lib/chapters';
+
+export async function getStaticPaths() {
+  const libros = await getCollection('libros');
+  return libros.map((libro) => ({
+    params: { libro: libro.id.split('/')[0] },
+    props: { libroId: libro.id },
+  }));
+}
+
+const { libro } = Astro.params;
+const { libroId } = Astro.props;
+
+const libroEntry = await getEntry('libros', libroId);
+if (!libroEntry) throw new Error(`Libro no encontrado: ${libroId}`);
+
+const todosCapitulos = await getCollection('capitulos');
+const capitulosLibro = todosCapitulos
+  .filter((c) => c.id.startsWith(`${libro}/`))
+  .sort((a, b) => getCapituloNumero(a.id) - getCapituloNumero(b.id));
+
+const primerCapitulo = capitulosLibro[0];
+const primerCapHref = primerCapitulo
+  ? `/${libro}/${getCapituloSlug(primerCapitulo.id)}`
+  : null;
+
+const estadoLabel =
+  libroEntry.data.estado === 'activo'
+    ? 'Expediente abierto · en curso'
+    : libroEntry.data.estado === 'planeado'
+      ? 'Planeado · pendiente de escritura'
+      : 'Expediente cerrado';
+
+const numCapitulosNarrativos = capitulosLibro.filter((c) => getCapituloNumero(c.id) >= 1).length;
+---
+
+<Base
+  title={libroEntry.data.titulo}
+  description={libroEntry.data.descripcion}
+>
+  <Topbar
+    kicker={`Universo Ornast · ${estadoLabel}`}
+    title={libroEntry.data.titulo}
+    homeUrl="/"
+  />
+  <Sidebar
+    libroSlug={libro!}
+    libroTitulo={libroEntry.data.titulo}
+    estadoLibro={estadoLabel}
+    capitulos={capitulosLibro}
+    currentNumero={-1}
+  />
+
+  <main class="book-portada">
+    <article class="book-content">
+      <div class="book-state-banner">{estadoLabel.toUpperCase()}</div>
+      <h1 class="book-title">{libroEntry.data.titulo}</h1>
+      {libroEntry.data.subtitulo && <p class="book-subtitle">{libroEntry.data.subtitulo}</p>}
+
+      <div class="ornament">❦</div>
+
+      {libroEntry.data.descripcion_larga && (
+        <p class="book-deck">{libroEntry.data.descripcion_larga}</p>
+      )}
+
+      {libroEntry.data.voz_tonal && (
+        <div class="book-meta">
+          <div class="meta-row">
+            <span class="meta-label">Voz tonal</span>
+            <span class="meta-value">{libroEntry.data.voz_tonal}</span>
+          </div>
+          {libroEntry.data.referentes && libroEntry.data.referentes.length > 0 && (
+            <div class="meta-row">
+              <span class="meta-label">Referentes</span>
+              <span class="meta-value">{libroEntry.data.referentes.join(' · ')}</span>
+            </div>
+          )}
+          {numCapitulosNarrativos > 0 && (
+            <div class="meta-row">
+              <span class="meta-label">Estado</span>
+              <span class="meta-value">{numCapitulosNarrativos} capítulo{numCapitulosNarrativos === 1 ? '' : 's'} disponible{numCapitulosNarrativos === 1 ? '' : 's'}</span>
+            </div>
+          )}
+        </div>
+      )}
+
+      {primerCapHref ? (
+        <div class="cta-row">
+          <a class="cta-primary" href={primerCapHref}>Empezar a leer →</a>
+        </div>
+      ) : (
+        <div class="cta-row">
+          <span class="cta-pending">Pendiente de escritura</span>
+        </div>
+      )}
+    </article>
+  </main>
+</Base>
+
+<style>
+  .book-portada {
+    margin-left: var(--sidebar-w);
+    padding-top: var(--topbar-h);
+    min-height: 100vh;
+    position: relative;
+    z-index: 5;
+  }
+  @media (max-width: 920px) {
+    .book-portada {
+      margin-left: 0;
+    }
+  }
+
+  .book-content {
+    max-width: 38rem;
+    margin: 0 auto;
+    padding: 4.5rem var(--reader-pad) 6rem;
+    text-align: center;
+  }
+
+  .book-state-banner {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    letter-spacing: 0.32em;
+    color: var(--accent);
+    margin-bottom: 1.4rem;
+  }
+
+  .book-title {
+    font-family: var(--font-display);
+    font-weight: 500;
+    font-size: clamp(2.2rem, 5vw, 3rem);
+    letter-spacing: 0.08em;
+    margin: 0 0 0.8rem;
+    color: var(--text);
+    line-height: 1.1;
+  }
+  .book-subtitle {
+    font-family: var(--font-body);
+    font-style: italic;
+    font-size: 1.1rem;
+    color: var(--text-soft);
+    margin: 0;
+  }
+
+  .ornament {
+    font-family: var(--font-display);
+    color: var(--text-faint);
+    font-size: 1.2rem;
+    margin: 2.4rem 0;
+  }
+
+  .book-deck {
+    font-family: var(--font-body);
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: var(--text);
+    text-align: left;
+    margin: 0 0 2.6rem;
+  }
+
+  .book-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    text-align: left;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    padding: 1.5rem 0;
+    margin: 0 0 2.4rem;
+  }
+  .meta-row {
+    display: grid;
+    grid-template-columns: 8rem 1fr;
+    gap: 1rem;
+    font-size: 0.92rem;
+  }
+  .meta-label {
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--text-faint);
+    align-self: center;
+  }
+  .meta-value {
+    font-family: var(--font-body);
+    color: var(--text-soft);
+    line-height: 1.4;
+  }
+
+  .cta-row {
+    margin-top: 2.4rem;
+  }
+  .cta-primary {
+    display: inline-block;
+    padding: 0.8rem 1.6rem;
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    transition: background 0.18s ease, color 0.18s ease;
+  }
+  .cta-primary:hover {
+    background: var(--accent);
+    color: var(--bg);
+  }
+  .cta-pending {
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--text-faint);
+  }
+</style>

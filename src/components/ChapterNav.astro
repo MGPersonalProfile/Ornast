@@ -1,0 +1,161 @@
+---
+interface Props {
+  prevHref?: string;
+  prevLabel?: string;
+  nextHref?: string;
+  nextLabel?: string;
+  pageMeta?: string;
+}
+
+const { prevHref, prevLabel, nextHref, nextLabel, pageMeta } = Astro.props;
+---
+
+<footer class="chapter-nav" id="chapter-nav">
+  {prevHref ? (
+    <a class="nav-link" href={prevHref} data-key="prev">
+      <span class="nav-arrow">←</span>
+      <span class="nav-labels">
+        <span class="nav-kicker">Anterior</span>
+        <span class="nav-title">{prevLabel}</span>
+      </span>
+    </a>
+  ) : (
+    <span class="nav-link nav-link-disabled" aria-hidden="true">
+      <span class="nav-arrow">·</span>
+      <span class="nav-labels">
+        <span class="nav-kicker">Anterior</span>
+        <span class="nav-title">—</span>
+      </span>
+    </span>
+  )}
+
+  <div class="page-meta">{pageMeta}</div>
+
+  {nextHref ? (
+    <a class="nav-link nav-link-right" href={nextHref} data-key="next">
+      <span class="nav-labels">
+        <span class="nav-kicker">Siguiente</span>
+        <span class="nav-title">{nextLabel}</span>
+      </span>
+      <span class="nav-arrow">→</span>
+    </a>
+  ) : (
+    <span class="nav-link nav-link-right nav-link-disabled" aria-hidden="true">
+      <span class="nav-labels">
+        <span class="nav-kicker">Siguiente</span>
+        <span class="nav-title">—</span>
+      </span>
+      <span class="nav-arrow">·</span>
+    </span>
+  )}
+</footer>
+
+<script>
+  document.addEventListener('keydown', (e) => {
+    if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
+    if (e.metaKey || e.ctrlKey || e.altKey) return;
+    if (e.key === 'ArrowRight' || e.key === 'j' || e.key === 'J') {
+      const next = document.querySelector<HTMLAnchorElement>('[data-key="next"]');
+      if (next) {
+        e.preventDefault();
+        next.click();
+      }
+    }
+    if (e.key === 'ArrowLeft' || e.key === 'k' || e.key === 'K') {
+      const prev = document.querySelector<HTMLAnchorElement>('[data-key="prev"]');
+      if (prev) {
+        e.preventDefault();
+        prev.click();
+      }
+    }
+  });
+</script>
+
+<style>
+  .chapter-nav {
+    max-width: var(--reader-max);
+    margin: 0 auto;
+    padding: 2rem var(--reader-pad) 4rem;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 1.5rem;
+    border-top: 1px solid var(--rule);
+  }
+  .nav-link {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    color: var(--text-soft);
+    padding: 0.5rem 0;
+    text-align: left;
+    transition: color 0.18s ease, transform 0.2s ease;
+  }
+  .nav-link-disabled {
+    opacity: 0.32;
+    pointer-events: none;
+  }
+  .nav-link:hover {
+    color: var(--accent);
+  }
+  .nav-link:hover .nav-arrow {
+    transform: translateX(-3px);
+  }
+  .nav-link.nav-link-right {
+    justify-content: flex-end;
+    text-align: right;
+  }
+  .nav-link.nav-link-right:hover .nav-arrow {
+    transform: translateX(3px);
+  }
+  .nav-arrow {
+    font-family: var(--font-display);
+    font-size: 1.4rem;
+    line-height: 1;
+    color: var(--accent);
+    transition: transform 0.2s ease;
+  }
+  .nav-labels {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    min-width: 0;
+  }
+  .nav-kicker {
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--text-faint);
+  }
+  .nav-title {
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    font-style: italic;
+    color: var(--text);
+    line-height: 1.2;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 14rem;
+  }
+  .page-meta {
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--text-faint);
+    text-align: center;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+
+  @media (max-width: 920px) {
+    .nav-title {
+      display: none;
+    }
+    .chapter-nav {
+      grid-template-columns: auto 1fr auto;
+    }
+  }
+</style>

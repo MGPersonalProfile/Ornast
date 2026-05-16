@@ -1,0 +1,63 @@
+---
+import Base from './Base.astro';
+import Topbar from '@components/Topbar.astro';
+import Sidebar from '@components/Sidebar.astro';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  title: string;
+  description?: string;
+  ogImage?: string;
+  libroSlug: string;
+  libroTitulo: string;
+  estadoLibro: string;
+  capitulos: CollectionEntry<'capitulos'>[];
+  currentNumero?: number;
+  topbarTitle?: string;
+}
+
+const {
+  title,
+  description,
+  ogImage,
+  libroSlug,
+  libroTitulo,
+  estadoLibro,
+  capitulos,
+  currentNumero,
+  topbarTitle,
+} = Astro.props;
+---
+
+<Base title={title} description={description} ogImage={ogImage}>
+  <Topbar
+    kicker={`Expediente · ${libroTitulo}`}
+    title={topbarTitle ?? title}
+    homeUrl="/"
+  />
+  <Sidebar
+    libroSlug={libroSlug}
+    libroTitulo={libroTitulo}
+    estadoLibro={estadoLibro}
+    capitulos={capitulos}
+    currentNumero={currentNumero}
+  />
+  <main class="reader">
+    <slot />
+  </main>
+</Base>
+
+<style>
+  .reader {
+    margin-left: var(--sidebar-w);
+    padding-top: var(--topbar-h);
+    min-height: 100vh;
+    position: relative;
+    z-index: 5;
+  }
+  @media (max-width: 920px) {
+    .reader {
+      margin-left: 0;
+    }
+  }
+</style>

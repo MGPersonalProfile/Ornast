@@ -1,0 +1,60 @@
+# ============================================================
+# SECRETOS — NUNCA COMMITEAR
+# ============================================================
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+*.pem
+*.key
+*.cert
+
+# ============================================================
+# Dependencias y artefactos de build
+# ============================================================
+node_modules/
+dist/
+.astro/
+.vercel/
+.turbo/
+.cache/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ============================================================
+# Editor / IDE
+# ============================================================
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.claude/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ============================================================
+# Screenshots locales de verificación
+# ============================================================
+.screenshots/
+
+# ============================================================
+# Lector legacy (HTML plano) — se va migrando a Astro
+# ============================================================
+lector/_screenshots/
+
+# ============================================================
+# Word docs derivados (la fuente de verdad es .md)
+# ============================================================
+~$*.docx
+
+# ============================================================
+# Backups locales del autor
+# ============================================================
+*.bak
+*.backup

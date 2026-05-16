@@ -40,7 +40,11 @@
   "markdown.preview.fontSize": 16,
   "markdown.preview.lineHeight": 1.8,
   "[markdown]": {
-    "editor.quickSuggestions": false,
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    },
     "editor.suggest.showWords": false,
     "editor.acceptSuggestionOnEnter": "off",
     "editor.tabCompletion": "off",
@@ -52,7 +56,7 @@
   // Desactivar distracciones de código
   "editor.suggestOnTriggerCharacters": false,
   "editor.parameterHints.enabled": false,
-  "editor.hover.enabled": false,
+  "editor.hover.enabled": "off",
   
   // Archivos
   "files.autoSave": "afterDelay",

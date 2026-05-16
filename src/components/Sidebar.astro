@@ -1,0 +1,226 @@
+---
+import ChapterCard from './ChapterCard.astro';
+import Eagle from './Eagle.astro';
+import { ACTOS_CUATRO_REINOS, type Acto, getCapituloNumero, getCapituloSlug } from '@lib/chapters';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  libroSlug: string;
+  libroTitulo: string;
+  estadoLibro: string;
+  capitulos: CollectionEntry<'capitulos'>[];
+  currentNumero?: number;
+}
+
+const { libroSlug, libroTitulo, estadoLibro, capitulos, currentNumero } = Astro.props;
+
+const actos: Acto[] = libroSlug === 'cuatro-reinos' ? ACTOS_CUATRO_REINOS : [];
+
+// Agrupar capítulos por acto
+const itemsConNum = capitulos
+  .map(c => ({ entry: c, numero: getCapituloNumero(c.id) }))
+  .filter(c => c.numero >= 0)
+  .sort((a, b) => a.numero - b.numero);
+
+function chaptersInAct(a: Acto) {
+  return itemsConNum.filter(c => c.numero >= a.range[0] && c.numero <= a.range[1]);
+}
+
+function povFromSlug(filename: string): string {
+  // capitulo_01_matt → "Matt"
+  const parts = filename.split('_').slice(2);
+  if (parts.length === 0) return '—';
+  const text = parts.join(' ').replace(/-/g, ' ');
+  return text.charAt(0).toUpperCase() + text.slice(1);
+}
+---
+
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-inner">
+    <div class="sidebar-header">
+      <Eagle size={60} class="eagle" />
+      <div class="sidebar-title">Índice del expediente</div>
+      <div class="sidebar-sub">{estadoLibro}</div>
+      <div class="sidebar-book">{libroTitulo}</div>
+    </div>
+
+    <nav class="chapter-list" aria-label="Lista de capítulos">
+      {actos.length === 0 ? (
+        // Libro sin actos: lista plana
+        itemsConNum.map(({ entry, numero }) => {
+          const slug = entry.id.split('/').pop()!.replace(/^capitulo_/, '').replace(/_/g, '-');
+          const filename = entry.id.split('/').pop()!;
+          return (
+            <ChapterCard
+              numero={numero}
+              pov={povFromSlug(filename)}
+              href={`/${libroSlug}/${slug}`}
+              current={numero === currentNumero}
+            />
+          );
+        })
+      ) : (
+        actos.map((acto) => {
+          const chaps = chaptersInAct(acto);
+          if (chaps.length === 0) return null;
+          return (
+            <div class={`act-group ${acto.silent ? 'act-group-silent' : ''}`}>
+              {!acto.silent && (
+                <div class="act-label">
+                  <span class="act-numeral">{acto.num}</span>
+                  <span class="act-name">{acto.name}</span>
+                </div>
+              )}
+              {chaps.map(({ entry, numero }) => {
+                const slug = getCapituloSlug(entry.id);
+                const filename = entry.id.split('/').pop()!;
+                const isApertura = numero === 0;
+                return (
+                  <ChapterCard
+                    numero={numero}
+                    pov={isApertura ? 'Apertura' : povFromSlug(filename)}
+                    href={`/${libroSlug}/${slug}`}
+                    coral={filename.includes('el_pueblo_sabe') || filename.includes('los_ninos')}
+                    current={numero === currentNumero}
+                  />
+                );
+              })}
+            </div>
+          );
+        })
+      )}
+    </nav>
+
+    <div class="sidebar-footer">
+      <div class="verse">
+        <span>Los hombres muertos no cuentan historias.</span>
+        <span>Los niños vivos no tienen poder.</span>
+        <span>Las mujeres nunca tendrán gloria.</span>
+        <span>Pero si hay algo que todo el pueblo sabe,</span>
+        <span class="verse-last">es que Dacius Maximiliano va a caer.</span>
+      </div>
+    </div>
+  </div>
+</aside>
+
+<style>
+  .sidebar {
+    position: fixed;
+    top: var(--topbar-h);
+    left: 0;
+    bottom: 0;
+    width: var(--sidebar-w);
+    background: var(--surface);
+    border-right: 1px solid var(--rule);
+    overflow-y: auto;
+    z-index: 30;
+    scrollbar-width: thin;
+    scrollbar-color: var(--rule) transparent;
+  }
+  .sidebar::-webkit-scrollbar {
+    width: 6px;
+  }
+  .sidebar::-webkit-scrollbar-thumb {
+    background: var(--rule);
+  }
+
+  .sidebar-inner {
+    padding: 1.8rem 1.4rem 2rem;
+  }
+
+  .sidebar-header {
+    margin-bottom: 1.6rem;
+  }
+  .eagle {
+    color: var(--accent);
+    margin-bottom: 0.9rem;
+    display: block;
+  }
+  .sidebar-title {
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--text);
+  }
+  .sidebar-sub {
+    font-family: var(--font-mono);
+    font-size: 0.58rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--text-faint);
+    margin-top: 0.3rem;
+  }
+  .sidebar-book {
+    font-family: var(--font-body);
+    font-style: italic;
+    font-size: 0.92rem;
+    color: var(--text-soft);
+    margin-top: 0.5rem;
+    line-height: 1.3;
+  }
+
+  .act-group {
+    margin-bottom: 1.6rem;
+  }
+  .act-group-silent {
+    margin-bottom: 1.4rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  .act-label {
+    display: flex;
+    align-items: baseline;
+    gap: 0.7rem;
+    padding: 1rem 0 0.55rem;
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 0.55rem;
+  }
+  .act-numeral {
+    font-family: var(--font-display);
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1;
+    color: var(--accent);
+    letter-spacing: 0.04em;
+  }
+  .act-name {
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--text-soft);
+  }
+
+  .sidebar-footer {
+    margin-top: 2.2rem;
+    padding-top: 1.2rem;
+    border-top: 1px solid var(--rule);
+  }
+  .verse {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-body);
+    font-style: italic;
+    font-size: 0.84rem;
+    line-height: 1.5;
+    color: var(--text-soft);
+    gap: 0;
+  }
+  .verse-last {
+    color: var(--accent);
+    margin-top: 0.2rem;
+  }
+
+  @media (max-width: 920px) {
+    .sidebar {
+      transform: translateX(-100%);
+      box-shadow: var(--shadow);
+      width: 280px;
+      transition: transform 0.3s ease;
+    }
+    :global(body[data-sidebar='open']) .sidebar {
+      transform: translateX(0);
+    }
+  }
+</style>

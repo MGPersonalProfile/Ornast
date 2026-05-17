@@ -8,7 +8,7 @@ El cuaderno de Aldous seguía bajo el colchón, envuelto en un paño. Llevaba se
 
 El calor requería energía. La energía requería extracción. La extracción requería botas mojadas y sacos de grano confiscados a mujeres con las manos rojas de tierra en un lugar llamado Veth.
 
-El techo abovedado, decorado con frescos de las conquistas de su abuelo, parecía presionarlo hacia abajo.
+El techo abovedado, decorado con frescos de las conquistas de su padre, parecía presionarlo hacia abajo.
 
 *El hielo se forma*, le había dicho a Soren la otra noche.
 

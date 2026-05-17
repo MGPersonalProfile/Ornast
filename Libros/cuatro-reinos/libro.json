@@ -1,13 +1,12 @@
 {
   "titulo": "Historia de cuatro reinos y un ducado",
   "titulo_corto": "Cuatro reinos",
-  "subtitulo": "Crónica del colapso de un imperio",
   "estado": "activo",
   "tipo": "novela",
   "orden_publicacion": 1,
   "orden_cronologico": 2,
-  "descripcion": "Crónica coral de un imperio que se cae mientras nadie en concreto lo está manejando. Veth tiene hambre, Ornast brilla, el ducado de Armstrong recuerda su nombre antiguo. Sin elegidos. Sin héroes. Sin magia que salve.",
-  "descripcion_larga": "Hace cuarenta años un hombre que heredó un condado menor salió a defender sus fronteras y volvió con medio continente bajo el pie. Hoy su nieto, Dacius Maximiliano XIII, tiene quince años y firma documentos que no ha escrito. El imperio sigue funcionando por inercia, sostenido por banqueros, generales y burócratas que ya no creen en nada. En los pueblos de barro la gente cuenta águilas en el borde de un plato roto. En el desierto, una mujer lee en la arena la presión que viene del norte. Y todo el mundo, sin saber por qué, repite el mismo verso.",
+  "descripcion": "Veth tiene hambre. Ornast brilla. El ducado de Armstrong recuerda su nombre antiguo. Un imperio de cuarenta años se cae despacio.",
+  "descripcion_larga": "Hace cuarenta años un hombre que heredó un condado menor salió a defender sus fronteras y volvió con medio continente bajo el pie. Hoy su hijo, Dacius Maximiliano XIII, tiene quince años y firma documentos que no ha escrito. En los pueblos de barro la gente cuenta águilas en el borde de un plato roto. En el desierto, una mujer lee en la arena la presión que viene del norte. Todo el mundo repite el mismo verso.",
   "voz_tonal": "McCarthy frío, Grossman, Bolaño. Prosa pelada, física, sin adornos. Coral, sin héroe.",
   "referentes": [
     "Cormac McCarthy",

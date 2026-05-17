@@ -77,12 +77,12 @@ La explicacion psicologica: porque el creia que tenia que pasar. Cada victoria c
 La autoproclamacion como XII Emperador
 Este es el dato concreto que explica la psicopatologia. Maximiliano no se proclamo Primer Emperador del Imperio de Ornast. Se proclamo Duodecimo Emperador. Hizo redactar genealogias que lo conectaban con once supuestos emperadores anteriores, todos inventados, todos con biografias falsas que la propaganda oficial recito durante decadas. Las monedas de su reinado dicen XII. Los archivos imperiales reescritos dicen XII. Los libros de texto que estudia Dacius dicen XII.
 Por eso Dacius es Dacius Maximiliano XIII. No porque haya doce Dacius reales antes. Porque el fundador necesitaba ser continuacion, no fundacion. Necesitaba ser eterno antes de empezar. La mentira fundacional concreta de un hombre concreto que la corte heredo y mantiene porque ya nadie puede admitir que la base entera es ficcion.
-Cada vez que un personaje dice "Dacius Maximiliano XIII" esta citando, sin saberlo, la psicopatia del abuelo del trono. El numero romano es el sintoma fosilizado.
+Cada vez que un personaje dice "Dacius Maximiliano XIII" esta citando, sin saberlo, la psicopatia del padre del trono. El numero romano es el sintoma fosilizado.
 La muerte
 Murio como Alejandro: demasiado lejos de casa, demasiado joven probablemente, con un Imperio demasiado grande para sostenerse y sin un heredero preparado. Dejo a un nino de quince anos sentado sobre una construccion imposible. Las circunstancias exactas son materia de rumor: enfermedad, veneno, accidente, traicion. La version oficial nunca coincide con la real. Esto podra resolverse en futuras obras del universo (ver Dios).
 La prueba sistemica
 Lo importante para esta novela: el Imperio sigue funcionando ahora, tres anos despues de su muerte, sin un psicopata en la silla. Dacius firma. Voss vigila. Maren calcula. Thorne administra. La maquinaria sobrevive al fundador. Esa es la tesis dura del libro: las dictaduras necesitan un psicopata para fundarse, pero burocratas para perpetuarse. Una vez la maquina esta puesta en marcha, no hace falta repetir la psicopatia. Hace falta firma, hace falta tributo, hace falta inercia.
-Cuando Dacius empiece a leer los documentos que firma, el lector debe entender: Dacius no es el monstruo. Su abuelo lo fue. Dacius es el sello que valida lo que el monstruo construyo. Cambiar eso es la decision propia que Dacius puede tomar.
+Cuando Dacius empiece a leer los documentos que firma, el lector debe entender: Dacius no es el monstruo. Su padre lo fue. Dacius es el sello que valida lo que el monstruo construyo. Cambiar eso es la decision propia que Dacius puede tomar.
 Como lo recuerda la gente
 Depende de a quien le preguntes:
 En la capital Ornast: heroe fundador, padre de la patria, estatuas en todas las plazas, su nombre en edificios y avenidas.

@@ -31,10 +31,10 @@ const primerCapHref = primerCapitulo
 
 const estadoLabel =
   libroEntry.data.estado === 'activo'
-    ? 'Expediente abierto · en curso'
+    ? 'En curso'
     : libroEntry.data.estado === 'planeado'
-      ? 'Planeado · pendiente de escritura'
-      : 'Expediente cerrado';
+      ? 'Planeado'
+      : 'Completado';
 
 const numCapitulosNarrativos = capitulosLibro.filter((c) => getCapituloNumero(c.id) >= 1).length;
 ---
@@ -44,7 +44,7 @@ const numCapitulosNarrativos = capitulosLibro.filter((c) => getCapituloNumero(c.
   description={libroEntry.data.descripcion}
 >
   <Topbar
-    kicker={`Universo Ornast · ${estadoLabel}`}
+    kicker="Universo Ornast"
     title={libroEntry.data.titulo}
     homeUrl="/"
   />
@@ -68,24 +68,11 @@ const numCapitulosNarrativos = capitulosLibro.filter((c) => getCapituloNumero(c.
         <p class="book-deck">{libroEntry.data.descripcion_larga}</p>
       )}
 
-      {libroEntry.data.voz_tonal && (
+      {numCapitulosNarrativos > 0 && (
         <div class="book-meta">
           <div class="meta-row">
-            <span class="meta-label">Voz tonal</span>
-            <span class="meta-value">{libroEntry.data.voz_tonal}</span>
+            <span class="meta-value">{numCapitulosNarrativos} capítulo{numCapitulosNarrativos === 1 ? '' : 's'} disponible{numCapitulosNarrativos === 1 ? '' : 's'}</span>
           </div>
-          {libroEntry.data.referentes && libroEntry.data.referentes.length > 0 && (
-            <div class="meta-row">
-              <span class="meta-label">Referentes</span>
-              <span class="meta-value">{libroEntry.data.referentes.join(' · ')}</span>
-            </div>
-          )}
-          {numCapitulosNarrativos > 0 && (
-            <div class="meta-row">
-              <span class="meta-label">Estado</span>
-              <span class="meta-value">{numCapitulosNarrativos} capítulo{numCapitulosNarrativos === 1 ? '' : 's'} disponible{numCapitulosNarrativos === 1 ? '' : 's'}</span>
-            </div>
-          )}
         </div>
       )}
 
@@ -175,21 +162,13 @@ const numCapitulosNarrativos = capitulosLibro.filter((c) => getCapituloNumero(c.
     margin: 0 0 2.4rem;
   }
   .meta-row {
-    display: grid;
-    grid-template-columns: 8rem 1fr;
-    gap: 1rem;
-    font-size: 0.92rem;
-  }
-  .meta-label {
-    font-family: var(--font-mono);
-    font-size: 0.62rem;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: var(--text-faint);
-    align-self: center;
+    text-align: center;
   }
   .meta-value {
-    font-family: var(--font-body);
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
     color: var(--text-soft);
     line-height: 1.4;
   }

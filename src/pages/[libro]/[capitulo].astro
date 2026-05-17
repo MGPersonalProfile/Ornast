@@ -98,10 +98,10 @@ const nextLabel = next
 
 const estadoLabel =
   libroEntry.data.estado === 'activo'
-    ? 'Expediente abierto · en curso'
+    ? 'En curso'
     : libroEntry.data.estado === 'planeado'
-      ? 'Planeado · pendiente'
-      : 'Expediente cerrado';
+      ? 'Planeado'
+      : 'Completado';
 ---
 
 <Reader

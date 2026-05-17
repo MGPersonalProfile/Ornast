@@ -1,5 +1,6 @@
 ---
 import '@/styles/global.css';
+import SearchModal from '@components/SearchModal.astro';
 
 interface Props {
   title: string;
@@ -63,5 +64,6 @@ const fullTitle = title === 'Universo Ornast' ? title : `${title} · Universo Or
   </head>
   <body>
     <slot />
+    <SearchModal />
   </body>
 </html>

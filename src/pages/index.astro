@@ -60,12 +60,20 @@ const libros = (await getCollection('libros')).sort(
       </div>
     </section>
 
-    <footer class="universe-footer">
-      <p>
-        <a href="https://github.com/MGPersonalProfile/Ornast" target="_blank" rel="noopener noreferrer">
-          Repositorio en GitHub
-        </a>
+    <div class="cta-row">
+      <a class="cta-empezar" href="/cuatro-reinos/00-prologo">
+        Empezar
+      </a>
+      <p class="cta-help">
+        Lee desde el principio o explora desde el índice de cualquier libro.
+        Tu progreso se guarda solo.
       </p>
+    </div>
+
+    <footer class="universe-footer">
+      <a href="/manifiesto">Manifiesto</a>
+      <span class="footer-sep" aria-hidden="true">·</span>
+      <a href="https://github.com/MGPersonalProfile/Ornast" target="_blank" rel="noopener noreferrer">GitHub</a>
     </footer>
   </main>
 </Base>
@@ -197,6 +205,36 @@ const libros = (await getCollection('libros')).sort(
     margin-top: 0.6rem;
   }
 
+  .cta-row {
+    text-align: center;
+    margin: 4rem auto 0;
+    max-width: 32rem;
+  }
+  .cta-empezar {
+    display: inline-block;
+    padding: 1rem 2.6rem;
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+    transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
+  }
+  .cta-empezar:hover {
+    background: var(--accent);
+    color: var(--bg);
+    transform: translateY(-1px);
+  }
+  .cta-help {
+    margin: 1.4rem auto 0;
+    font-family: var(--font-body);
+    font-size: 0.92rem;
+    font-style: italic;
+    color: var(--text-soft);
+    line-height: 1.55;
+  }
+
   .universe-footer {
     text-align: center;
     margin-top: 5rem;
@@ -204,11 +242,21 @@ const libros = (await getCollection('libros')).sort(
     border-top: 1px solid var(--rule);
     font-family: var(--font-mono);
     font-size: 0.7rem;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
     color: var(--text-faint);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
   }
   .universe-footer a {
-    color: var(--accent);
+    color: var(--text-soft);
     border-bottom: 1px dotted currentColor;
+    transition: color 0.15s ease;
   }
+  .universe-footer a:hover {
+    color: var(--accent);
+  }
+  .footer-sep { color: var(--text-faint); }
 </style>
